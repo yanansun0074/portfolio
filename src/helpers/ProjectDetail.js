@@ -44,6 +44,8 @@ export const projectDetail = [
         "So what do they usually do when they are alone or with companions? You can tell by this bar chart on activities each day.",
       model2: "bar plot",
       text5: "\n",
+      text6:
+        "This project is made with R Studio (data cleaning) and Blender (3D). You can find:",
       link: {
         link_text: "Github repo for this project",
         link_source: "https://github.com/yanansun0074/squirrel_3D",
