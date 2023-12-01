@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.29b02876.css",
-    "main.js": "/portfolio/static/js/main.9b35ab70.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.3422c354.css",
+    "main.js": "/portfolio/static/js/main.ece9a643.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/Squirrel_Map2.gif": "/portfolio/static/media/Squirrel_Map2.4ab371f506584f9a548a.gif",
     "static/media/ManhattanFood_filters.gif": "/portfolio/static/media/ManhattanFood_filters.7e76903fa2eb2a68ce15.gif",
     "static/media/CatConcert_poster.png": "/portfolio/static/media/CatConcert_poster.012bbe8d8769c10c6559.png",
     "static/media/ManhattanFood_showrest.gif": "/portfolio/static/media/ManhattanFood_showrest.623e9045a78c13a9ac3b.gif",
@@ -22,7 +23,9 @@
     "static/media/CommonUsername_find.gif": "/portfolio/static/media/CommonUsername_find.b3722f73ae23141384ad.gif",
     "static/media/MiniGolf_poster.png": "/portfolio/static/media/MiniGolf_poster.9cb841eea4e231db81a9.png",
     "static/media/HomeSweetHome_Poster.png": "/portfolio/static/media/HomeSweetHome_Poster.ea8acb706974027c7c88.png",
+    "static/media/Squirrel_cover.png": "/portfolio/static/media/Squirrel_cover.e208b9597257027dd52d.png",
     "static/media/Podcast_poster.png": "/portfolio/static/media/Podcast_poster.a8b9006eab131237e659.png",
+    "static/media/Squirrel_scatter_hectar2.png": "/portfolio/static/media/Squirrel_scatter_hectar2.d79c44bbc1be1a73f4d7.png",
     "static/media/CommonUsername_Poster.png": "/portfolio/static/media/CommonUsername_Poster.c535a10805337599fb07.png",
     "static/media/MetaMapper_select.png": "/portfolio/static/media/MetaMapper_select.0819f3c4e5c3d01d3905.png",
     "static/media/MetaMapper_wayfinding.png": "/portfolio/static/media/MetaMapper_wayfinding.16defef120c334b2c4ff.png",
@@ -36,12 +39,12 @@
     "static/media/HomePage2.png": "/portfolio/static/media/HomePage2.0cbe9b17d20e71523e15.png",
     "static/media/MetaMapper_travel.jpg": "/portfolio/static/media/MetaMapper_travel.4ba965c2e6007d0e4809.jpg",
     "index.html": "/portfolio/index.html",
-    "main.29b02876.css.map": "/portfolio/static/css/main.29b02876.css.map",
-    "main.9b35ab70.js.map": "/portfolio/static/js/main.9b35ab70.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.3422c354.css.map": "/portfolio/static/css/main.3422c354.css.map",
+    "main.ece9a643.js.map": "/portfolio/static/js/main.ece9a643.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29b02876.css",
-    "static/js/main.9b35ab70.js"
+    "static/css/main.3422c354.css",
+    "static/js/main.ece9a643.js"
   ]
 }
