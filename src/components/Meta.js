@@ -61,6 +61,49 @@ function Meta({ name }) {
             </div>
           );
         }
+        if (key.includes("model1")) {
+          return (
+            <div class="sketchfab-embed-wrapper">
+              <iframe
+                title="Central Park Squirrel Hectar Scatter Plot"
+                frameborder="0"
+                allowfullscreen
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+                allow="autoplay; fullscreen; xr-spatial-tracking"
+                xr-spatial-tracking
+                execution-while-out-of-viewport
+                execution-while-not-rendered
+                web-share
+                width="640"
+                height="480"
+                src="https://sketchfab.com/models/feaf799fd0d346d8ba8b74532d8e43ac/embed"
+              ></iframe>
+            </div>
+          );
+        }
+
+        if (key.includes("model2")) {
+          return (
+            <div class="sketchfab-embed-wrapper">
+              <iframe
+                title="Central Park Squirrel Activity Bar Plot"
+                frameborder="0"
+                allowfullscreen
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+                allow="autoplay; fullscreen; xr-spatial-tracking"
+                xr-spatial-tracking
+                execution-while-out-of-viewport
+                execution-while-not-rendered
+                web-share
+                width="640"
+                height="480"
+                src="https://sketchfab.com/models/6f07e243db9d4839a81258595f567720/embed"
+              ></iframe>
+            </div>
+          );
+        }
 
         return <div></div>;
       })}

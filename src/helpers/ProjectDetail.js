@@ -18,8 +18,45 @@ import ceval_home from "../images/UNCWebEval_Search+auto.png";
 import ceval_class from "../images/UNCWebEval_class.png";
 import ceval_cata from "../images/UNCWebEval_Catelog.png";
 import ceval_login from "../images/UNCWebEval_login.png";
+import squirrel1 from "../images/Squirrel_Map2.gif";
+import squirrel2 from "../images/Squirrel_scatter_hectar2.png";
 
 export const projectDetail = [
+  {
+    name: "Squirrel Census",
+    content: {
+      text: "Step into the vibrant world of Central Park, where over 2,000 elusive squirrels play hide-and-seek amidst the towering trees and bustling pathways. Have you ever wondered where and when these furry acrobats make their appearances? Are they high up in the trees, executing daring maneuvers, or are they on the ground, scampering through the urban jungle? Discover their favorite hangouts - be it by the water's edge, along scenic paths, or amidst the hustle and bustle of park-goers. \n",
+      text1:
+        "This project goes beyond the ordinary with captivating 3D visualizations, providing an immersive experience that unravels the mysteries of Central Park's squirrel community. Explore their secret world and gain insights into their habits, habitats, and the enchanting connections they share with this iconic urban oasis. \n",
+      text2:
+        "First, let's start with the squirrels' position: the map below shows where they are witnessed by visitors in Central Park. The highest one is estimated to be 180 (unit unknown) above the ground. Such a tree climber! \n",
+      image: squirrel1,
+      text3:
+        "When the winter comes, the lone wolf dies but the pack survives. It’s hard to tell if the same applies to squirrels. But it seems that they enjoyed hanging out in groups, as the bar shows the number of squirrels in a group witnessed by people.",
+      // image1: squirrel2,
+      // link: {
+      //   link_text: "Play with the model here",
+      //   link_source: "https://youtu.be/51bT8fCYLBM",
+      //   des: "space cleanup",
+      // },
+      model1: "scatter plot",
+      text4:
+        "So what do they usually do when they are alone or with companions? You can tell by this bar chart on activities each day.",
+      model2: "bar plot",
+      text5: "\n",
+      link: {
+        link_text: "Github repo for this project",
+        link_source: "https://github.com/yanansun0074/squirrel_3D",
+        des: "github_squirrel",
+      },
+      link1: {
+        link_text:
+          "Data from 2018 Central Park Squirrel Census - Squirrel Data",
+        link_source: "https://github.com/yanansun0074/squirrel_3D",
+        des: "data source",
+      },
+    },
+  },
   {
     name: "Met(a) Mapper",
     content: {

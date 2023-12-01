@@ -9,8 +9,17 @@ import sea from "../images/FrozenSea_poster1.png";
 import concert from "../images/CatConcert_poster.png";
 import autumn from "../images/MidAutumnFest_poster.png";
 import ceval from "../images/UNCWebEval_poster.png";
+import squirrel from "../images/Squirrel_cover.png";
 
 export const projectList = [
+  {
+    route: "squirrel-census",
+    name: "Squirrel Census",
+    image: squirrel,
+    date: "2023-10",
+    skill: "Blender, R",
+    intro: "3D data visualization of central park squirrel census",
+  },
   {
     route: "meta-mapper",
     name: "Met(a) Mapper",
