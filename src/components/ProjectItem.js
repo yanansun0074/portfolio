@@ -9,10 +9,19 @@ function ProjectItem({ route, image, name, intro, date, skill }) {
     <div
       className="projectItem"
       onClick={() => {
+        switch (name) {
+          case "Pandemic Censorship":
+            window.location.href =
+              "https://colab.research.google.com/drive/1fjkM-Hrzs3P1YHsMWPJ14r2ckhy_G3J5?usp=sharing";
+            break;
+
+          default:
+            navigate("/project/" + route);
+        }
         // Which page to go to
         // Set each projectItem's unique id in Projects.js
         // Put the unique route path after project/
-        navigate("/project/" + route);
+        // navigate("/project/" + route);
       }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />

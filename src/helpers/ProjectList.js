@@ -10,8 +10,27 @@ import concert from "../images/CatConcert_poster.png";
 import autumn from "../images/MidAutumnFest_poster.png";
 import ceval from "../images/UNCWebEval_poster.png";
 import squirrel from "../images/Squirrel_cover.png";
+import censor from "../images/ChinaCensorship_cover.png";
+import icesheet from "../images/IcesheetVR_cover.png";
 
 export const projectList = [
+  {
+    route: "vr-for-icesheet",
+    name: "VR Navigation for Ice Sheets",
+    image: icesheet,
+    date: "2023-12",
+    skill: "VR, C#, UI",
+    intro: "A VR navigation system in polar for glacial exploration",
+  },
+  {
+    route: "covid-censorship",
+    name: "Pandemic Censorship",
+    image: censor,
+    date: "2023-12",
+    skill: "Python, Dataviz",
+    intro:
+      "A visualization of censored online articles in China before and after the pandemic.",
+  },
   {
     route: "squirrel-census",
     name: "Squirrel Census",

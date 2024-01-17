@@ -1,7 +1,16 @@
 import React from "react";
 import { projectDetail } from "../helpers/ProjectDetail";
+// import covid_censor from "../components/Text Visualization of Censored Titles (1).html";
+// import DigitalCensor from "./DigitalCensor.js";
 
 function Meta({ name }) {
+  // if (name === "Pandemic Censorship") {
+  //   window.location.replace(
+  //     "https://colab.research.google.com/drive/1fjkM-Hrzs3P1YHsMWPJ14r2ckhy_G3J5?usp=sharing"
+  //   );
+  //   return;
+  // }
+
   const project = projectDetail.find((p) => p["name"] === name);
   const content = project.content;
   // const container = document.getElementById("body");
@@ -14,7 +23,6 @@ function Meta({ name }) {
   const find_key = Object.keys(content).forEach((key, index) => {
     list.push(key);
   });
-  console.log(list);
 
   return (
     <div id="body">
@@ -29,12 +37,14 @@ function Meta({ name }) {
           img.src = content[key];
           return <img src={content[key]} alt="projectDetail" />;
         }
+
         if (key.includes("text")) {
           let p = document.createElement("p");
           p.innerHTML = content[key];
           container.appendChild(p);
           return <p>{content[key]}</p>;
         }
+
         if (key.includes("list")) {
           return (
             <ul>
@@ -44,11 +54,13 @@ function Meta({ name }) {
             </ul>
           );
         }
+
         if (key.includes("link")) {
           return (
             <a href={content[key].link_source}>{content[key].link_text} </a>
           );
         }
+
         if (key.includes("video")) {
           return (
             <div>
@@ -61,6 +73,7 @@ function Meta({ name }) {
             </div>
           );
         }
+
         if (key.includes("model1")) {
           return (
             <div class="sketchfab-embed-wrapper">
@@ -104,6 +117,15 @@ function Meta({ name }) {
             </div>
           );
         }
+
+        // if (key.includes("web")) {
+        //   return (
+        //     <div>
+        //       This is digital censorship
+        //       <DigitalCensor />
+        //     </div>
+        //   );
+        // }
 
         return <div></div>;
       })}
