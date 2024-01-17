@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3422c354.css",
-    "main.js": "/portfolio/static/js/main.ed1270aa.js",
+    "main.css": "/portfolio/static/css/main.14a068fa.css",
+    "main.js": "/portfolio/static/js/main.6cc588bc.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Squirrel_Map2.gif": "/portfolio/static/media/Squirrel_Map2.4ab371f506584f9a548a.gif",
     "static/media/ManhattanFood_filters.gif": "/portfolio/static/media/ManhattanFood_filters.7e76903fa2eb2a68ce15.gif",
@@ -25,26 +25,38 @@
     "static/media/HomeSweetHome_Poster.png": "/portfolio/static/media/HomeSweetHome_Poster.ea8acb706974027c7c88.png",
     "static/media/Squirrel_cover.png": "/portfolio/static/media/Squirrel_cover.e208b9597257027dd52d.png",
     "static/media/Podcast_poster.png": "/portfolio/static/media/Podcast_poster.a8b9006eab131237e659.png",
-    "static/media/Squirrel_scatter_hectar2.png": "/portfolio/static/media/Squirrel_scatter_hectar2.d79c44bbc1be1a73f4d7.png",
     "static/media/CommonUsername_Poster.png": "/portfolio/static/media/CommonUsername_Poster.c535a10805337599fb07.png",
     "static/media/MetaMapper_select.png": "/portfolio/static/media/MetaMapper_select.0819f3c4e5c3d01d3905.png",
     "static/media/MetaMapper_wayfinding.png": "/portfolio/static/media/MetaMapper_wayfinding.16defef120c334b2c4ff.png",
+    "static/media/IcesheetVR_cover.png": "/portfolio/static/media/IcesheetVR_cover.044a08148d08a3a2e3e7.png",
     "static/media/UNCWebEval_Catelog.png": "/portfolio/static/media/UNCWebEval_Catelog.d1de8529ceb038ce1fea.png",
     "static/media/MetaMapper_poster.png": "/portfolio/static/media/MetaMapper_poster.cba5b27b2127fb7ba69a.png",
+    "static/media/ChinaCensorship_cover.png": "/portfolio/static/media/ChinaCensorship_cover.6777bd7ceab573f36d4f.png",
     "static/media/MetaMapper_scene2.png": "/portfolio/static/media/MetaMapper_scene2.86e84099e11b4d151a1b.png",
     "static/media/ManhattanFood_image.png": "/portfolio/static/media/ManhattanFood_image.3382999f52f30c41477c.png",
     "static/media/UNCWebEval_login.png": "/portfolio/static/media/UNCWebEval_login.880280791b37e3b48e23.png",
     "static/media/UNCWebEval_class.png": "/portfolio/static/media/UNCWebEval_class.ffa2b5e8156cd6c9cc2b.png",
     "static/media/MetaMapper_scene1.png": "/portfolio/static/media/MetaMapper_scene1.54e13d788d07916835b5.png",
+    "static/media/IcesheetVR6.jpg": "/portfolio/static/media/IcesheetVR6.7cd13a4f5213bf908941.jpg",
+    "static/media/IcesheetVR10.jpg": "/portfolio/static/media/IcesheetVR10.4a81906accaa8aab6dcd.jpg",
+    "static/media/IcesheetVR9.jpg": "/portfolio/static/media/IcesheetVR9.b02d2170e615eb362e93.jpg",
+    "static/media/IcesheetVR11.jpg": "/portfolio/static/media/IcesheetVR11.347a58299c1896081b58.jpg",
+    "static/media/IcesheetVR3.jpg": "/portfolio/static/media/IcesheetVR3.a8809e21be119681302d.jpg",
+    "static/media/IcesheetVR8.jpg": "/portfolio/static/media/IcesheetVR8.08fd401b6fcd50747793.jpg",
+    "static/media/IcesheetVR7.jpg": "/portfolio/static/media/IcesheetVR7.c41e6d9d9b2dca1bfdfe.jpg",
+    "static/media/IcesheetVR5.jpg": "/portfolio/static/media/IcesheetVR5.5afa849b3a2c21e919fe.jpg",
+    "static/media/IcesheetVR4.jpg": "/portfolio/static/media/IcesheetVR4.f7fc881b393c891ddcc6.jpg",
+    "static/media/IcesheetVR1.jpg": "/portfolio/static/media/IcesheetVR1.5c2d31b6f06e7c2034b0.jpg",
+    "static/media/IcesheetVR2.jpg": "/portfolio/static/media/IcesheetVR2.92c92aa3f1ab9cd72624.jpg",
     "static/media/HomePage2.png": "/portfolio/static/media/HomePage2.0cbe9b17d20e71523e15.png",
     "static/media/MetaMapper_travel.jpg": "/portfolio/static/media/MetaMapper_travel.4ba965c2e6007d0e4809.jpg",
     "index.html": "/portfolio/index.html",
-    "main.3422c354.css.map": "/portfolio/static/css/main.3422c354.css.map",
-    "main.ed1270aa.js.map": "/portfolio/static/js/main.ed1270aa.js.map",
+    "main.14a068fa.css.map": "/portfolio/static/css/main.14a068fa.css.map",
+    "main.6cc588bc.js.map": "/portfolio/static/js/main.6cc588bc.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3422c354.css",
-    "static/js/main.ed1270aa.js"
+    "static/css/main.14a068fa.css",
+    "static/js/main.6cc588bc.js"
   ]
 }
