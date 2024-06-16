@@ -10,7 +10,7 @@ function Home() {
         <div className="prompt">
           <p>
             A multi-media storyteller ethusiastic about the intersection of
-            technology and media.
+            technology and media
           </p>
         </div>
       </div>
