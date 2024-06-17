@@ -1,16 +1,7 @@
 import React from "react";
 import { projectDetail } from "../helpers/ProjectDetail";
-// import covid_censor from "../components/Text Visualization of Censored Titles (1).html";
-// import DigitalCensor from "./DigitalCensor.js";
 
 function Meta({ name }) {
-  // if (name === "Pandemic Censorship") {
-  //   window.location.replace(
-  //     "https://colab.research.google.com/drive/1fjkM-Hrzs3P1YHsMWPJ14r2ckhy_G3J5?usp=sharing"
-  //   );
-  //   return;
-  // }
-
   const project = projectDetail.find((p) => p["name"] === name);
   const content = project.content;
   // const container = document.getElementById("body");
@@ -23,6 +14,7 @@ function Meta({ name }) {
   const find_key = Object.keys(content).forEach((key, index) => {
     list.push(key);
   });
+  console.log(list);
 
   return (
     <div id="body">
@@ -37,14 +29,14 @@ function Meta({ name }) {
           img.src = content[key];
           return <img src={content[key]} alt="projectDetail" />;
         }
-
+        // "text": normal text
         if (key.includes("text")) {
           let p = document.createElement("p");
           p.innerHTML = content[key];
           container.appendChild(p);
-          return <p>{content[key]}</p>;
+          return <p style={{ whiteSpace: "pre-line" }}>{content[key]}</p>;
         }
-
+        // "list": list
         if (key.includes("list")) {
           return (
             <ul>
@@ -54,13 +46,13 @@ function Meta({ name }) {
             </ul>
           );
         }
-
+        //  "link": link to something
         if (key.includes("link")) {
           return (
             <a href={content[key].link_source}>{content[key].link_text} </a>
           );
         }
-
+        //  "video": video src
         if (key.includes("video")) {
           return (
             <div>
@@ -73,7 +65,7 @@ function Meta({ name }) {
             </div>
           );
         }
-
+        // "model1": 3D models
         if (key.includes("model1")) {
           return (
             <div class="sketchfab-embed-wrapper">
@@ -95,7 +87,7 @@ function Meta({ name }) {
             </div>
           );
         }
-
+        // "model2": 3D model 2
         if (key.includes("model2")) {
           return (
             <div class="sketchfab-embed-wrapper">
@@ -118,14 +110,13 @@ function Meta({ name }) {
           );
         }
 
-        // if (key.includes("web")) {
-        //   return (
-        //     <div>
-        //       This is digital censorship
-        //       <DigitalCensor />
-        //     </div>
-        //   );
-        // }
+        if (key.includes("h3")) {
+          return <h3>{content[key]}</h3>;
+        }
+
+        if (key.includes("h4")) {
+          return <h4>{content[key]}</h4>;
+        }
 
         return <div></div>;
       })}

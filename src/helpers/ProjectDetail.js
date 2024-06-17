@@ -20,68 +20,45 @@ import ceval_cata from "../images/UNCWebEval_Catelog.png";
 import ceval_login from "../images/UNCWebEval_login.png";
 import squirrel1 from "../images/Squirrel_Map2.gif";
 // import squirrel2 from "../images/Squirrel_scatter_hectar2.png";
-import icesheet1 from "../images/IcesheetVR1.jpg";
-import icesheet2 from "../images/IcesheetVR2.jpg";
-import icesheet3 from "../images/IcesheetVR3.jpg";
-import icesheet4 from "../images/IcesheetVR4.jpg";
-import icesheet5 from "../images/IcesheetVR5.jpg";
-import icesheet6 from "../images/IcesheetVR6.jpg";
-import icesheet7 from "../images/IcesheetVR7.jpg";
-import icesheet8 from "../images/IcesheetVR8.jpg";
-import icesheet9 from "../images/IcesheetVR9.jpg";
-import icesheet10 from "../images/IcesheetVR10.jpg";
-import icesheet11 from "../images/IcesheetVR11.jpg";
+import icesheet from "../images/IcesheetVR_1.png";
+import icesheet1 from "../images/IcesheetVR_2.png";
+import icesheet2 from "../images/IcesheetVR_3.png";
+import icesheet3 from "../images/IcesheetVR_4.png";
+import icesheet4 from "../images/IcesheetVR_5.png";
+import icesheet5 from "../images/IcesheetVR_6.png";
 
 export const projectDetail = [
   {
     name: "VR Navigation for Ice Sheets",
     content: {
-      text: '"Virtual Reality Navigation for Ice Sheets" aims to Identify, design and implement various navigation methods within the virtual environment for improving user interaction and understanding of the complex polar datasets. In this project, we implement localization and intuitive locomotion methods for a sense of direction of motion and easy movement through the virtual environment respectively.',
-      link: {
-        link_text: "Link to video demonstration",
-        link_source: "https://youtu.be/BxuG7nc1jeY",
-        des: "vr navigation for icesheets",
-      },
-      text1: "Function descriptions:",
-      text2: "1. Locomotion",
+      text: '"Virtual Reality Navigation for Ice Sheets” aims to Identify, design and implement various navigation methods within the virtual environment for improving user interaction and understanding of the complex polar datasets. In this project, I implement localization and intuitive locomotion methods for a sense of direction of motion and easy movement through the virtual environment respectively.',
+      video: "https://www.youtube.com/embed/BxuG7nc1jeY?si=QNWUZOKrDJxlIzet",
+      h3: "Project Functions:",
+      h4: "1. Locomotion",
       text3:
-        "By pulling the joystick on right controller to right and left, users could move vertically.",
-      image: icesheet1,
+        "- Moving Up and Down: By pulling the joystick on right controller to right and left, users could move vertically.\n- Teleportation: with left controller joystick (with raycast present) & trigger.\n- Rotate: pulling joystick to left or right on the left controller.\n- Move back: pulling back the joystick on the left controller ",
+      image: icesheet,
+      h41: "2. Menu:",
       text4:
-        "Teleport with left controller joystick (with raycast present) & trigger.",
-      image1: icesheet2,
+        "- Open menu: Press the “A” button on the right controller to open the menu. (Sometimes the menu is too close to the user so that it is invisible. Just move back a little bit)\n- Toggle Surface DEM.\n- Toggle Radar Graph.\n- Toggle compass: the red needle always point to the north.",
+      image1: icesheet1,
       text5:
-        "Rotate by pulling joystick to left or right on the left controller.",
-      text6: "Move back by pulling back the joystick on the left controller.",
-      text7: "2. Menu",
+        "- Show position bookmark: When it is toggled on, the miniature map will turn into an overview sight. Bookmark positions are in blue while the player's current position is in green. All existing bookmarks are shown on the menu (by default, there is only one “Top view” bookmark.)",
+      image2: icesheet2,
+      text6:
+        "- Clicking on the bookmark button will highlight the corresponding bookmark on the map in red.",
+      image3: icesheet3,
+      text7:
+        "- Add bookmark: Clicking on the “Add bookmark” button on the side will trigger this panel, which shows the current position of users and allows inputs for bookmark names. (Although the input field is not interactable yet and to be implemented in future version)",
+      image4: icesheet4,
       text8:
-        "Press the “A” button on the right controller to open the menu. (Sometimes the menu is too close to the user so that it is invisible. Just move back a little bit).",
-      image2: icesheet3,
-      text9: "Toggle Surface DEM.",
-      image3: icesheet4,
-      text10: "Toggle Radar Graph",
-      image4: icesheet5,
-      text11: "Toggle compass: the red needle always point to the north.",
-      image5: icesheet6,
-      text12:
-        "Show position bookmark: When it is toggled on, the miniature map will turn into an overview sight. Bookmark positions are in blue while the player's current position is in green. All existing bookmarks are shown on the menu (by default, there is only one “Top view” bookmark. ",
-      image6: icesheet7,
-      text13:
-        "Clicking on the bookmark button will highlight the corresponding bookmark on the map in red.",
-      image7: icesheet8,
-      text14:
-        "Add bookmark: Clicking on the “Add bookmark” button on the side will trigger this panel, which shows the current position of users and allows inputs for bookmark names. (Although the input field is not interactable yet and to be implemented in future version)",
-      image8: icesheet9,
-      text15:
         "Click on “confirm”. A new bookmark is added to the list and shown on the miniature map in blue. ",
-      image9: icesheet10,
-      text16: "Move to bookmark",
-      text17:
-        "Clicking on the “move to bookmark” button on the side will teleport users to the selected bookmark in red. If no bookmark is selected, user will be teleported to the latest bookmark. ",
-      image10: icesheet11,
-      text18:
-        "System Requirements: Unity 3D (2021.3.14f) and tested for Quest3 on MacOS",
-      text19: "Assets/Packages requirements: MRTK Version 2.8.2",
+      image5: icesheet5,
+      text9:
+        "- Move to a bookmark: Clicking on the “move to bookmark” button on the side will teleport users to the selected bookmark in red. If no bookmark is selected, user will be teleported to the latest bookmark. ",
+      h31: "Limitation & Improvement:",
+      text10:
+        "We have attempted to add tunneling effects to the camera to address the potential VR sickness during movements like teleportation and vertical movement. But it seems that the VR Tunneling Pro did not work with two cameras (one main and one VR rendered camera) in MRTK. We believed that the cause might be that there are more than one camera. However, the problem still persisted after we tried to disable one of the cameras. ",
     },
   },
   {

@@ -26,10 +26,11 @@ function Navbar() {
           <ReorderIcon />{" "}
         </button>
       </div>
-      <div className="links">
+      <div className="links alata-regular">
         <Link to="/"> Home </Link>
-        <Link to="/projects"> Portfolio </Link>
-        <Link to="/writing"> Writing </Link>
+        <Link to="/projects"> Projects </Link>
+        {/* <Link to="/experience"> Experience</Link>
+        <Link to="/journal"> Journal</Link> */}
         {/* <Link to="/aboutme"> About </Link> */}
       </div>
     </div>

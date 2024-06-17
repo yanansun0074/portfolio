@@ -4,36 +4,29 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Footer.css";
-
-const styles = {
-  largeIcon: {
-    width: 60,
-    height: 60,
-  },
-};
+import { LaptopWindows } from "@material-ui/icons";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
+        {/* <InstagramIcon />
+        <TwitterIcon />
+        <FacebookIcon />
+        <LinkedInIcon /> */}
         <LinkedInIcon
-          iconStyle={styles.largeIcon}
           onClick={() =>
-            window.open(
-              "https://www.linkedin.com/in/yanan-sun-199645181/",
-              "_blank"
-            )
+            window.open("https://www.linkedin.com/in/yanan-sun-199645181/")
           }
         />
         <GitHubIcon
-          iconStyle={styles.largeIcon}
-          onClick={() =>
-            window.open("https://github.com/yanansun0074", "_blank")
-          }
+          onClick={() => window.open("https://github.com/yanansun0074")}
         />
+        <EmailIcon />
       </div>
-      <p> &copy; 2023 yanans.com</p>
+      <p> &copy; 2024 yanans.com</p>
     </div>
   );
 }

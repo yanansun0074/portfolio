@@ -12,25 +12,45 @@ import ceval from "../images/UNCWebEval_poster.png";
 import squirrel from "../images/Squirrel_cover.png";
 import censor from "../images/ChinaCensorship_cover.png";
 import icesheet from "../images/IcesheetVR_cover.png";
+import shed from "../images/SidewalkShed_cover.png";
+import queer from "../images/QueerRepresentation_cover.png";
 
 export const projectList = [
   {
+    refs: "https://www.notion.so/Queer-Representation-in-Feature-Films-0875204751e441158dc669998967ec78?pvs=4",
+    name: "Queer Representation in Feature Films",
+    date: "2024-05",
+    image: queer,
+    skill: "Reporting, data viz",
+    intro: "More queer character, but less queer representation",
+  },
+  {
+    route: "",
+    refs: "https://yanans.shorthandstories.com/city-of-non-stop-sidewalk-sheds/",
+    name: "City of Non-stop Sidewalk Sheds",
+    date: "2024-04",
+    image: shed,
+    skill: "Reporting, 3D data viz",
+    intro:
+      "There are more than 9,000 sidewalk sheds with currently active permits issued by DOB, with an average age longer than 500 days.",
+  },
+  {
     route: "vr-for-icesheet",
     name: "VR Navigation for Ice Sheets",
-    image: icesheet,
     date: "2023-12",
     skill: "VR, C#, UI",
     intro: "A VR navigation system in polar for glacial exploration",
+    image: icesheet,
   },
-  {
-    route: "covid-censorship",
-    name: "Pandemic Censorship",
-    image: censor,
-    date: "2023-12",
-    skill: "Python, Dataviz",
-    intro:
-      "A visualization of censored online articles in China before and after the pandemic.",
-  },
+  // {
+  //   route: "covid-censorship",
+  //   name: "Pandemic Censorship",
+  //   image: censor,
+  //   date: "2023-12",
+  //   skill: "Python, Dataviz",
+  //   intro:
+  //     "A visualization of censored online articles in China before and after the pandemic.",
+  // },
   {
     route: "squirrel-census",
     name: "Squirrel Census",
