@@ -14,15 +14,15 @@ function Meta({ name }) {
   const find_key = Object.keys(content).forEach((key, index) => {
     list.push(key);
   });
-  console.log(list);
-
+  // console.log(list);
   return (
     <div id="body">
       {/* {Object.keys(content).forEach((key, index) => {
         list.push(key);
       })} */}
+
       {list.map((key, index) => {
-        console.log("there are some keys");
+        // console.log("there are some keys");
         if (key.includes("image")) {
           console.log("image found");
           let img = new Image();
@@ -55,10 +55,10 @@ function Meta({ name }) {
         //  "video": video src
         if (key.includes("video")) {
           return (
-            <div>
+            <div className="video-container">
               <iframe
-                width="1080"
-                height="720"
+                width="720"
+                height="480"
                 src={content[key]}
                 title="What do I do on Mid-Autum Festival"
               ></iframe>
@@ -122,37 +122,6 @@ function Meta({ name }) {
       })}
     </div>
   );
-
-  // return (
-  //   <div>
-
-  //     {/* {Object.keys(content).forEach((key, index) => {
-  //       console.log("there are some keys");
-  //       if (key.includes("image")) {
-  //         console.log("image found");
-  //         let img = new Image();
-  //         img.src = content[key];
-
-  //         container.appendChild(img);
-  //       }
-  //       if (key.includes("text")) {
-  //         let p = document.createElement("p");
-  //         p.innerHTML = content[key];
-  //         container.appendChild(p);
-  //       }
-  //       return;
-  //     })} */}
-  //     {/* {content.forEach((key, value) => {
-  //       if (key.includes("image")) {
-  //         return <div>image+1</div>;
-  //       } else if (key.includes("text")) {
-  //         return <p> {value}</p>;
-  //       }
-  //       return <div>key+1</div>;
-  //     })} */}
-  //     {/* <div>key</div> */}
-  //   </div>
-  // );
 }
 
 export default Meta;

@@ -73,3 +73,8 @@
 .projectDetail ul {
   width: 60%;
 }
+
+.projectDetail .video-container {
+  height: 80%;
+  
+}

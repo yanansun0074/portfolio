@@ -1,9 +1,88 @@
-.writings {
+  .writing {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
+    font-family: "Alata", sans-serif;
   }
+
+
+  .writing .headline{
+      color: #4b9cd3;
+  }
+
+  .writing-section{
+    width: 70%
+  }
+
+  .cell-link {
+    text-decoration: none;
+    color: inherit;
+    display: block; /* Makes the anchor tag behave like a block element */
+  }
+
+  .list-component-article {
+    list-style: none;
+    /* margin-left: 10px; */
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .card-component-article{
+    border: 3px solid #4b9cd3;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+    border-radius: 5px;
+    padding: 3em 2.5em 3em 2.5em;
+    max-width: 200%;
+    /* font-family: Arial; */
+    position: relative;
+    bottom: 20px;
+
+    /* image and text */
+    display: flex;
+    align-items: center;
+
+
+    /* transition: background-color 0.3s; */
+  }
+
+  .card-component-article:hover {
+        /* animation */
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    background-color: #98c4ebdd;
+  }
+
+  .image-container {
+    width: 400px; /* Fixed width for all images */
+    height: 250px; /* Fixed height for all images */
+    margin-right: 3em;
+    flex-shrink: 0;
+  }
+
+.article-cover {
+  width: 100%; /* Adjust the size of the image as needed */
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio while filling the container */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align text to the right */
+}
+
+.text-container .__title {
+  font-size: 1.5em;
+}
+
+.text-container .__summary {
+  color: rgb(16, 11, 11);
+}
+
+

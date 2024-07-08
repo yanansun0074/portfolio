@@ -29,6 +29,10 @@ import icesheet5 from "../images/IcesheetVR_6.png";
 
 export const projectDetail = [
   {
+    name: "PrivaSee",
+    content: {},
+  },
+  {
     name: "VR Navigation for Ice Sheets",
     content: {
       text: '"Virtual Reality Navigation for Ice Sheets” aims to Identify, design and implement various navigation methods within the virtual environment for improving user interaction and understanding of the complex polar datasets. In this project, I implement localization and intuitive locomotion methods for a sense of direction of motion and easy movement through the virtual environment respectively.',
@@ -102,6 +106,7 @@ export const projectDetail = [
     name: "Met(a) Mapper",
     content: {
       text: "Met(a) Mapper is a headset-based 3D map for the Metropolitan Museum of Art that provides immersive experience, essential information about exhibition, and pathfinding.\n\nIn particular, we choose to create four scenes (Arms and Armor, Samurai Artifacts, Chinese Ceramics and Paintings, and Greek Sculptures) and implemented a variety of 3D interaction techniques to enhance the gameplay experience. These include teleportation to navigate through the scenes, artwork selection and manipulation to learn more about its origins and view it from different angles, and a main menu that allows you to easily find a specific artwork and exhibit.",
+      video: "https://www.youtube.com/embed/jUBhmyPY8ZE?si=VJC_nlGb-rSnHRM1",
       text1:
         "  Users will be able to move using a joystick, or teleport with arc indicators, with tunneling effects when useful.",
       image: meta1,
@@ -142,6 +147,7 @@ export const projectDetail = [
     name: "AR/VR Mini-Golf",
     content: {
       text: "This is a phone-based AR application that allows users to create a miniature golf (mini golf) course and a headset-based AR application for Meta Quest 2 in which users can play on the created course",
+      video: "https://www.youtube.com/embed/Ira15-aWnME?si=Lmpyk-rUd79Ac3DD",
       text1: "Part One: Phone-Based AR Mini Golf Course Builder",
       image: golf1,
       text2: "Function includes:",

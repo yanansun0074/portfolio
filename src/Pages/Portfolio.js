@@ -7,7 +7,7 @@ import "../styles/Project.css";
 function Portfolio() {
   return (
     <div className="projects alata-regular">
-      <h1 className="headline">Projects</h1>
+      <h1 className="headline">Project</h1>
       <div className="projectList">
         {projectList.map((project) => {
           return (

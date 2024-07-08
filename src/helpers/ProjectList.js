@@ -1,7 +1,7 @@
 import theMet from "../images/MetaMapper_poster.png";
-import uname from "../images/CommonUsername_Poster.png";
+import uname from "../images/CommonUsername_choose.gif";
 import golf from "../images/MiniGolf_poster.png";
-import food from "../images/ManhattanFood_image.png";
+import food from "../images/ManhattanFood_interactive.gif";
 import space from "../images/SpaceCleanProject_poster.png";
 import podcast from "../images/Podcast_poster.png";
 import home from "../images/HomeSweetHome_Poster.png";
@@ -9,30 +9,37 @@ import sea from "../images/FrozenSea_poster1.png";
 import concert from "../images/CatConcert_poster.png";
 import autumn from "../images/MidAutumnFest_poster.png";
 import ceval from "../images/UNCWebEval_poster.png";
-import squirrel from "../images/Squirrel_cover.png";
+import squirrel from "../images/Squirrel_Map2.gif";
 import censor from "../images/ChinaCensorship_cover.png";
 import icesheet from "../images/IcesheetVR_cover.png";
-import shed from "../images/SidewalkShed_cover.png";
+import shed from "../images/SidewalkShed_cover.gif";
 import queer from "../images/QueerRepresentation_cover.png";
 
 export const projectList = [
+  // {
+  //   name: "PrivaSee",
+  //   date: "W.I.P",
+  //   skill: "NLP, product, UI",
+  //   intro:
+  //     "An AI-powered tool that analyzes, visualizes, and scores privacy policies.",
+  // },
+
   {
     refs: "https://www.notion.so/Queer-Representation-in-Feature-Films-0875204751e441158dc669998967ec78?pvs=4",
     name: "Queer Representation in Feature Films",
-    date: "2024-05",
+    date: "W.I.P",
     image: queer,
     skill: "Reporting, data viz",
     intro: "More queer character, but less queer representation",
   },
   {
-    route: "",
-    refs: "https://yanans.shorthandstories.com/city-of-non-stop-sidewalk-sheds/",
-    name: "City of Non-stop Sidewalk Sheds",
+    refs: "https://github.com/yanansun0074/City-of-Sidewalk-Shed",
+    name: "3D Geospatial Mapping for Journalism",
     date: "2024-04",
     image: shed,
     skill: "Reporting, 3D data viz",
     intro:
-      "There are more than 9,000 sidewalk sheds with currently active permits issued by DOB, with an average age longer than 500 days.",
+      "A beginner-friendly pipeline with PyDeck to prototype 3D geospatial mapping.",
   },
   {
     route: "vr-for-icesheet",

@@ -1,0 +1,136 @@
+.experience {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Alata", sans-serif;
+
+  }
+
+  .experience .headline{
+    color: #4b9cd3;
+  }
+
+  .experience-section{
+    width: 70%
+  }
+
+  .experience a{
+    color: #4b9cd3;
+  }
+
+  .list-component {
+    /* border-left: 2px solid #4b9cd3; */
+    list-style: none;
+    /* margin-left: 10px; */
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+  }
+   /* https://www.computerhope.com/issues/ch001705.htm */
+  .list-component .__item {
+    /* background: url(https://www.computerhope.com/issues/pictures/bullet.gif) no-repeat top left; */
+    background-position: top left;
+    padding: 0 0 4px 60px;
+    /* margin-left: 1em; */
+    position: relative;
+    right: 67px;
+    margin-bottom: 10px;
+    top: 10px;
+  }
+  
+  .card-component {
+    border: 3px solid #4b9cd3;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3em;
+
+    border-radius: 5px;
+    padding: 2em 2em 2em 3em;
+    max-width: 200%;
+    /* font-family: Arial; */
+    position: relative;
+    bottom: 20px;
+  }
+  
+  .card-component .__year {
+    font-size: 1em;
+  }
+  
+  .card-component .__title {
+    font-size: 1.5em;
+  }
+  
+  .card-component .__text {
+    color: gray;
+  }
+
+  .card-component .__work-sample {
+    overflow: hidden; 
+    padding:0;
+
+  }
+
+  .card-component .work-sample-header{
+    /* align-items: center; */
+    font-size: 1em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .__work-sample .work-sample-grids{
+    margin-top: 15px;
+  }
+
+/* For sample work image display */
+div.gallery {
+  border: 1px solid #ccc;
+  width: 200px; /* Fixed width for all images */
+  height: 120px; /* Fixed height for all images */
+}
+
+div.gallery:hover {
+  border: 1px solid #70BCF4;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

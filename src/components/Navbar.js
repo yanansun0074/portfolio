@@ -28,10 +28,9 @@ function Navbar() {
       </div>
       <div className="links alata-regular">
         <Link to="/"> Home </Link>
-        <Link to="/projects"> Projects </Link>
-        {/* <Link to="/experience"> Experience</Link>
-        <Link to="/journal"> Journal</Link> */}
-        {/* <Link to="/aboutme"> About </Link> */}
+        <Link to="/project"> Project </Link>
+        <Link to="/experience"> Experience</Link>
+        <Link to="/writing"> Writing</Link>
       </div>
     </div>
   );

@@ -3,11 +3,12 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-function ProjectItem({ route, image, name, intro, date, skill, refs }) {
+function ProjectItem({ route, image, name, intro, date, skill, refs, href }) {
   // Create a function called navigate == useNavigate();
   const navigate = useNavigate();
 
   const handleNavigation = () => {
+    // prjects with external links
     if (refs) {
       window.location.href = refs;
     } else {
@@ -26,7 +27,9 @@ function ProjectItem({ route, image, name, intro, date, skill, refs }) {
       }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
-      <h1> {name} </h1>
+      <div className="project-header-container">
+        <h1> {name} </h1>
+      </div>
       <p className="intro"> {intro} </p>
       <p className="date"> {date} </p>
       <p className="skill">{skill}</p>

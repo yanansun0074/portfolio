@@ -26,8 +26,9 @@ function Home() {
               </a>
               , an AI-driven tool that analyzes, visualizes, and scores mobile
               app’s privacy policies. I am also the co-founder of{" "}
-              <a href="">Data at large</a>, a studio that innovate in data
-              consumptions and storytelling via AI, data visualization, etc..
+              <a href="https://dataatlarge.com/">Data At Large</a>, a studio
+              that innovate in data consumptions and storytelling via AI, data
+              visualization, etc..
             </p>
             <p>
               Before that, I worked as research assistant at the Computer

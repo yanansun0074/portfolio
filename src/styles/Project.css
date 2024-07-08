@@ -53,13 +53,20 @@
   background-size: cover;
 }
 
+.projectItem .project-header-container{
+  height: 15%;
+}
 .projectItem h1 {
   font-size: 20px;
+  align-items: center;
+  line-height:120%;
 }
 
 .projectItem p {
   font-size: 15px;
   line-height: 100%;
+  margin-top: 0%;
+
 }
 
 .projectItem p.date{
