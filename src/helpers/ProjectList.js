@@ -14,15 +14,18 @@ import censor from "../images/ChinaCensorship_cover.png";
 import icesheet from "../images/IcesheetVR_cover.png";
 import shed from "../images/SidewalkShed_cover.gif";
 import queer from "../images/QueerRepresentation_cover.png";
+import privasee from "../images/PrivaSee_poster.png";
 
 export const projectList = [
-  // {
-  //   name: "PrivaSee",
-  //   date: "W.I.P",
-  //   skill: "NLP, product, UI",
-  //   intro:
-  //     "An AI-powered tool that analyzes, visualizes, and scores privacy policies.",
-  // },
+  {
+    name: "PrivaSee",
+    date: "W.I.P",
+    image: privasee,
+    skill: "NLP, product, UI",
+    refs: "https://yanansun0074.github.io/privasee/",
+    intro:
+      "An AI-powered tool that analyzes, visualizes, and scores privacy policies.",
+  },
 
   {
     refs: "https://www.notion.so/Queer-Representation-in-Feature-Films-0875204751e441158dc669998967ec78?pvs=4",
