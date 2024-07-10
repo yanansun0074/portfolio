@@ -28,7 +28,7 @@ export const projectList = [
   },
 
   {
-    refs: "https://www.notion.so/Queer-Representation-in-Feature-Films-0875204751e441158dc669998967ec78?pvs=4",
+    refs: "https://quiet-shell-901.notion.site/Queer-Representation-in-Feature-Films-752028016d3a4529a1bfc3f28c50f04e",
     name: "Queer Representation in Feature Films",
     date: "W.I.P",
     image: queer,
