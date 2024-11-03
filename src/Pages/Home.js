@@ -18,9 +18,14 @@ function Home() {
             <p>
               I’m a multi-media storyteller, game developer, graphics designer,
               video editors and more. I am interested in exploring the
-              intersectionality of the media and technology. I am currently a
-              entrepreneurship fellow at the Brown Institute in New York City,
-              developing{" "}
+              intersectionality of the media and technology. I am currently the{" "}
+              <a href="https://hussman.unc.edu/people/yanan-sun">
+                Local News Researcher
+              </a>{" "}
+              at UNC Hussman School of Journalism and Media, conducting
+              quantitative research on the sustainability of local news. Before
+              that, I worked as an entrepreneurship fellow at the Brown
+              Institute in New York City, developing{" "}
               <a href="https://brown.columbia.edu/the-winners-of-our-venture-challenge/">
                 PrivaSee
               </a>

@@ -4,8 +4,16 @@ import shed from "../images/articles/sidewalkshed_cover.png";
 import unity from "../images/articles/unity_tutorial_cover.png";
 import sickness from "../images/articles/VR_sickness.png";
 import gaze from "../images/articles/gaze.png";
+import nutshell from "../images/articles/Nutshell.png";
 
 export const ArticleList = [
+  {
+    title: "The Nutshell - Nov 1, 2024 Edition",
+    img: nutshell,
+    summary:
+      "Welcome to The Nutshell, a page where I intermittently share useful tools across a variety of subjects and purposes.",
+    link: "https://yanans.substack.com/p/the-nutshell",
+  },
   {
     title:
       "After An Overnight Delay, I Visualized Carriers’ On-time Performance",

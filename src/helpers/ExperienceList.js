@@ -22,10 +22,36 @@ import lede from "../images/worksamples/lede.png";
 
 export const ExperienceList = [
   {
+    title: "Local News Researcher",
+    company: "UNC Hussman School of Journalism And Media",
+    company_link: "https://hussman.unc.edu/",
+    time: "2024/10 - Now",
+    role: "Carry out the day-to-day work of data collection, analysis, storage and public presentation for local news research projects\nWork with the research director and interns to complete projects and present deliverables to a variety of stakeholders",
+    reflection: "",
+    samples: [
+      // { sample_img: brown, sample_link: "" },
+      // { sample_img: brown2, sample_link: "" },
+      // { sample_img: brown3, sample_link: "" },
+    ],
+  },
+  {
+    title: "Research Technologist",
+    company: "Gazzetta Media",
+    company_link: "https://www.gazzetta.xyz/?ref=pboehler.net",
+    time: "2024/09 - Now",
+    role: "Identify and adapt relevant internet freedom technologies for newsrooms operating in challenging environments\nDevelop and provide technical guidance for media practitioners in restricted media landscapes\nAssist in the creation of unique case studies tailored to restricted media environments\nCollaborate with newsrooms to address their challenges and create cases studies\nContribute to a comprehensive training syllabus for journalists working in challenging contexts",
+    reflection: "",
+    samples: [
+      // { sample_img: brown, sample_link: "" },
+      // { sample_img: brown2, sample_link: "" },
+      // { sample_img: brown3, sample_link: "" },
+    ],
+  },
+  {
     title: "Entrepreneurship Fellow",
     company: "Brown Insititute for Media Innovation",
     company_link: "https://brown.columbia.edu/",
-    time: "2024/06 - Now",
+    time: "2024/06 - 2024/08",
     role: "Researched AI news product market, interviewed academia, readers, news organizations\nDesigned business model and marketing strategy, revised and presented pitches in weekly meetings \n Built a technical pipeline using NLP and machine learning, collected privacy policy data, maintained a database\nEdited product website copy and graphics, prototyped and tested the application's UI/UX using Adobe XD",
     reflection: "",
     samples: [
