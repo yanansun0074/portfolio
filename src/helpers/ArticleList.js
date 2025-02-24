@@ -5,8 +5,26 @@ import unity from "../images/articles/unity_tutorial_cover.png";
 import sickness from "../images/articles/VR_sickness.png";
 import gaze from "../images/articles/gaze.png";
 import nutshell from "../images/articles/Nutshell.png";
+import g1 from "../images/articles/gazzetta_1.png";
+import g2 from "../images/articles/gazzetta_2.png";
 
 export const ArticleList = [
+  {
+    title:
+      "Confidence levels over data points: Our approach to understanding information needs",
+    img: g2,
+    summary:
+      "Forget rigid surveys. We prioritize understanding the 'why' behind information needs, not just the 'what,' by measuring confidence levels over mere data points. This allows us to adapt and uncover deeper insights, especially in challenging environments.",
+    link: "https://www.gazzetta.xyz/work-notes/audience-research-methods",
+  },
+  {
+    title:
+      "You may think you understand your readers, but there's a disconnect",
+    img: g1,
+    summary:
+      "In our research in China, we discovered that journalists' assumptions about audience information needs often diverge dramatically from reality. Over the next few weeks, we'll share insights from this research, showing that if we can successfully identify and serve real audience needs in China's restricted media environment, this approach can work anywhere.",
+    link: "https://www.gazzetta.xyz/work-notes/intro",
+  },
   {
     title: "The Nutshell - Nov 1, 2024 Edition",
     img: nutshell,
