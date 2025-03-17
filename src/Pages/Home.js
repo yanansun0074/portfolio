@@ -76,6 +76,25 @@ function Home() {
             </p>
           </div>
         </div>
+        <div className="updates">
+          <h2>So, what's new</h2>
+          <div className="updates-items">
+            <ul>
+              <li>
+                <a href="https://www.cislm.org/research/local-news-in-the-eye-of-the-storm/">
+                  My report about wester North Carolina's coverage of Hurricane
+                  Helene came out
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1daZ615jIEBxAVuLhdG_Oh1wK05hjIUF1">
+                  Talk - "How we built a chatbot, and should you build one,
+                  too?" at NC News & Info Summit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );

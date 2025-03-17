@@ -15,8 +15,26 @@ import icesheet from "../images/IcesheetVR_cover.png";
 import shed from "../images/SidewalkShed_cover.gif";
 import queer from "../images/QueerRepresentation_cover.png";
 import privasee from "../images/PrivaSee_poster.png";
+import wnc from "../images/WNC_poster.png";
+import oscar from "../images/oscar_poster.jpg";
 
 export const projectList = [
+  {
+    name: "Oscar Best Picture in Box Office",
+    date: "2025-03",
+    image: oscar,
+    skill: "data viz, d3",
+    intro: "Best picture, low box office",
+    route: "oscar-best-pictures",
+  },
+  {
+    name: "Local News in the Eye of the Storm",
+    date: "2025-03",
+    image: wnc,
+    skill: "Data analysis, research",
+    refs: "https://www.cislm.org/research/local-news-in-the-eye-of-the-storm/",
+    intro: "An analysis of Hurricane Helene coverage in Western North Carolina",
+  },
   {
     name: "PrivaSee",
     date: "W.I.P",

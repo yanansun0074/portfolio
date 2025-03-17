@@ -18,7 +18,7 @@ function ProjectDisplay() {
   return (
     <div className="projectDetail alata-regular">
       <h1> {project.name} </h1>
-      <img src={project.image} alt="project" />
+      {/* <img src={project.image} alt="project" /> */}
       <Meta name={project.name} style={{ whiteSpace: "pre-line" }} />
     </div>
   );

@@ -29,6 +29,13 @@ import icesheet5 from "../images/IcesheetVR_6.png";
 
 export const projectDetail = [
   {
+    name: "Oscar Best Picture in Box Office",
+    content: {
+      iframe:
+        "https://observablehq.com/embed/dfd69442aa1e8ee0@230?cells=viewof+chart&api_key=f864450d540cc7bd4f23d76b51fc11deb4f2350c",
+    },
+  },
+  {
     name: "PrivaSee",
     content: {},
   },

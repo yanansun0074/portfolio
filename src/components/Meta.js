@@ -110,6 +110,18 @@ function Meta({ name }) {
           );
         }
 
+        if (key.includes("iframe")) {
+          // return <iframe width="100%" src={content[key]}></iframe>;
+          return (
+            <iframe
+              width="90%"
+              height="876"
+              frameborder="0"
+              src="https://observablehq.com/embed/dfd69442aa1e8ee0@230?cells=viewof+chart&api_key=f864450d540cc7bd4f23d76b51fc11deb4f2350c"
+            ></iframe>
+          );
+        }
+
         if (key.includes("h3")) {
           return <h3>{content[key]}</h3>;
         }

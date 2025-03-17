@@ -70,6 +70,44 @@
     font-size: 42px;
     transform: translateY(-140%);
   }
+
+  .updates{
+    color: #4b9cd3;
+    stroke-width: 1%;
+
+    text:hover {
+      text-decoration: underline;
+      color: blue!important;
+    }
+  }
+
+  .updates-items {
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .updates ul{
+    list-style: none;
+    margin-left: 0;
+  }
+
+  .updates li{
+    margin-top: 2em;
+    margin-left: 0;
+  }
+
+  .updates a:hover{
+    color: #4b9cd3;
+    transition: 0.3s;
+
+  }
+  .updates a {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+  }
   
   /* @keyframes animate {
     0%,
