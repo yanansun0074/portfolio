@@ -77,7 +77,7 @@ function Home() {
           </div>
         </div>
         <div className="updates">
-          <h2>So, what's new</h2>
+          <h2>So, what's new...</h2>
           <div className="updates-items">
             <ul>
               <li>
@@ -87,7 +87,7 @@ function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://drive.google.com/drive/folders/1daZ615jIEBxAVuLhdG_Oh1wK05hjIUF1">
+                <a href="https://docs.google.com/presentation/d/1AC1ZC64b2cpht30UePaevOKpJKJxLuFr/edit">
                   Talk - "How we built a chatbot, and should you build one,
                   too?" at NC News & Info Summit
                 </a>

@@ -17,6 +17,7 @@ import queer from "../images/QueerRepresentation_cover.png";
 import privasee from "../images/PrivaSee_poster.png";
 import wnc from "../images/WNC_poster.png";
 import oscar from "../images/oscar_poster.jpg";
+import airline from "../images/Airline_poster.webp";
 
 export const projectList = [
   {
@@ -26,6 +27,7 @@ export const projectList = [
     skill: "data viz, d3",
     intro: "Best picture, low box office",
     route: "oscar-best-pictures",
+    tags: ["data viz"],
   },
   {
     name: "Local News in the Eye of the Storm",
@@ -34,6 +36,16 @@ export const projectList = [
     skill: "Data analysis, research",
     refs: "https://www.cislm.org/research/local-news-in-the-eye-of-the-storm/",
     intro: "An analysis of Hurricane Helene coverage in Western North Carolina",
+    tags: ["data viz", "research"],
+  },
+  {
+    name: "Airline On-time Performance",
+    date: "2024-09",
+    image: airline,
+    skill: "Data viz",
+    refs: "https://medium.com/@yananbecca/after-an-overnight-delay-i-visualized-carriers-on-time-performance-c81b80259b6c",
+    intro: "Which airline delayed the most?",
+    tags: ["data viz"],
   },
   {
     name: "PrivaSee",
@@ -43,6 +55,7 @@ export const projectList = [
     refs: "https://yanansun0074.github.io/privasee/",
     intro:
       "An AI-powered tool that analyzes, visualizes, and scores privacy policies.",
+    tags: ["UI/UX", "design"],
   },
 
   {
@@ -52,6 +65,7 @@ export const projectList = [
     image: queer,
     skill: "Reporting, data viz",
     intro: "More queer character, but less queer representation",
+    tags: ["data viz", "reporting"],
   },
   {
     refs: "https://github.com/yanansun0074/City-of-Sidewalk-Shed",
@@ -61,6 +75,7 @@ export const projectList = [
     skill: "Reporting, 3D data viz",
     intro:
       "A beginner-friendly pipeline with PyDeck to prototype 3D geospatial mapping.",
+    tags: ["data viz", "3D"],
   },
   {
     route: "vr-for-icesheet",
@@ -69,6 +84,7 @@ export const projectList = [
     skill: "VR, C#, UI",
     intro: "A VR navigation system in polar for glacial exploration",
     image: icesheet,
+    tags: ["UI/UX", "3D"],
   },
   // {
   //   route: "covid-censorship",
@@ -86,6 +102,7 @@ export const projectList = [
     date: "2023-10",
     skill: "Blender, R",
     intro: "3D data visualization of central park squirrel census",
+    tags: ["data viz", "3D"],
   },
   {
     route: "meta-mapper",
@@ -94,6 +111,7 @@ export const projectList = [
     date: "2023-05",
     skill: "VR, 3D UI",
     intro: "Immersive VR experience of the Metropolitian Museum of Art",
+    tags: ["3D", "UI/UX"],
   },
   {
     route: "common-username",
@@ -102,6 +120,7 @@ export const projectList = [
     date: "2023-05",
     skill: "Data Vis, D3",
     intro: "A visualization of how quickly common usernames were taken",
+    tags: ["data viz"],
   },
   {
     route: "mini-golf",
@@ -110,6 +129,7 @@ export const projectList = [
     date: "2023-03",
     skill: "AR, VR, 3D UI",
     intro: "Build your own mini-golf course in AR, and play it in VR!",
+    tags: ["3D", "UI/UX"],
   },
   {
     route: "manhattan-food",
@@ -119,6 +139,7 @@ export const projectList = [
     skill: "Data Vis, D3",
     intro:
       "An interactive guide on Manhattan restaurants that cater to your apetitie",
+    tags: ["data viz"],
   },
   {
     route: "space-cleanup",
@@ -127,6 +148,7 @@ export const projectList = [
     date: "2023-02",
     skill: "Mobile Game, UI",
     intro: "Collect as many space trash as possible",
+    tags: ["UI/UX"],
   },
   {
     route: "podcast-onomatopoeia",
@@ -135,6 +157,7 @@ export const projectList = [
     date: "2022-12",
     skill: "Audio, Podcast",
     intro: "Two episodes for podcast by Columbia Graduate School of Journalism",
+    tags: ["audio"],
   },
   {
     route: "home-sweet-home",
@@ -143,6 +166,7 @@ export const projectList = [
     date: "2022-05",
     skill: "Documentary",
     intro: "Home across mountains and seas",
+    tags: ["video"],
   },
   {
     route: "frozen-sea",
@@ -151,6 +175,7 @@ export const projectList = [
     date: "2021-11",
     skill: "Documentary",
     intro: "An environmental documentary",
+    tags: ["video"],
   },
   {
     route: "course-eval",
@@ -159,6 +184,7 @@ export const projectList = [
     date: "2020-12",
     skill: "JavaScript, Html, CSS",
     intro: "A course evaluation website for Tar Heels",
+    tags: ["web app"],
   },
   {
     route: "cat-concert",
@@ -167,6 +193,7 @@ export const projectList = [
     date: "2020-12",
     skill: "After Effect",
     intro: "Welcome to cat concert!",
+    tags: ["video"],
   },
   {
     route: "mid-autumn",
@@ -175,5 +202,6 @@ export const projectList = [
     date: "2020-10",
     skill: "After Effect",
     intro: "What do I usually do on Mid Autumn Festival",
+    tags: ["video"],
   },
 ];
