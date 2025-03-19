@@ -21,6 +21,7 @@
 .project p {
   font-size: 40px;
   color: #3e497a;
+  font-weight: lighter;
 }
 
 .project svg {
@@ -66,8 +67,9 @@
 .projectDetail p {
   margin-top: 20px;
   width: 60%; 
-  font-size: 20px;
-  color: #3e497a;
+  font-size: 18px;
+  color: black;
+  font-weight: 2;
 }
 
 .projectDetail ul {

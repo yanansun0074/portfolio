@@ -81,9 +81,15 @@ function Home() {
           <div className="updates-items">
             <ul>
               <li>
+                <a href="https://2025.open-data.nyc/event/make-your-3d-data-viz-map/">
+                  Upcoming workshop - Make Your 3D Data Viz Map at NYC Open Data
+                  Week 2025 [RSVP]
+                </a>
+              </li>
+              <li>
                 <a href="https://www.cislm.org/research/local-news-in-the-eye-of-the-storm/">
-                  My report about wester North Carolina's coverage of Hurricane
-                  Helene came out
+                  Report - Local News in the Eye of the Storm: Coverage of
+                  Hurricane Helene in Western North Carolina
                 </a>
               </li>
               <li>

@@ -31,8 +31,30 @@ export const projectDetail = [
   {
     name: "Oscar Best Picture in Box Office",
     content: {
-      iframe:
-        "https://observablehq.com/embed/dfd69442aa1e8ee0@230?cells=viewof+chart&api_key=f864450d540cc7bd4f23d76b51fc11deb4f2350c",
+      text: "Do Oscar Best Picture Winners Reflect Audience Preferences?",
+      text1:
+        "The 2025 Academy Award for Best Picture went to <a href='https://www.imdb.com/title/tt28607951/'>Anora</a>, a film that earned only $42.6 million at the box office (by Mar 10, 2025) — making it one of the lowest-grossing winners in recent years. This trend raises an interesting question:",
+      text2:
+        " <b>👉 Is the Academy’s definition of “best” diverging from public opinion?</b>",
+      text3:
+        "Box office performance often serves as a proxy for a film’s popularity. Yet, when we look at the box office earnings of Best Picture winners over the years, a clear pattern emerges:",
+      list: [
+        "Before 2010, many Oscar winners crossed the $500 million mark at the box office.",
+        "However, after 2010, adjusted box office earnings for Best Picture winners fell significantly.",
+      ],
+      text4:
+        "Since 2010, most Best Picture winners have struggled to reach $500 million — a stark contrast to earlier years when major box office successes often aligned with the Academy’s picks. The only exception?",
+      text5:
+        "🎬 <a href='https://www.imdb.com/title/tt15398776/?ref_=nv_sr_srsg_0_tt_1_nm_7_in_0_q_oppen'>Oppenheimer</a> (2023), which grossed nearly <b>$1 billion</b> worldwide, proving that critical acclaim and commercial success can still go hand-in-hand.",
+
+      iframe: [
+        "80%",
+        "876",
+        "0",
+        "https://observablehq.com/embed/dfd69442aa1e8ee0@230?cells=viewof+chart&api_key=54f0dd4f9381ed8f3c6700db0dc2f4c4744aa1d3",
+      ],
+      text6:
+        "Data source: <a href='https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture'>Wikipedia for best pictures</a>, <a href='https://www.boxofficemojo.com/?ref_=bo_nb_tt_mojologo'>Box Office Mojo</a>",
     },
   },
   {
@@ -142,12 +164,48 @@ export const projectDetail = [
         "Our hypothesis is that more common names are taken in a faster manner. While our hypothesis appears to be obvious and not debatable, we want to focus on visualizing the trends of common usernames and their creation date, as well as any variations of the common names.",
       text3:
         "See popular names and when they were taken (common first name, fruit, color, funny names!)",
-      image2: unmae_find,
+      iframe: [
+        "50%",
+        "1319",
+        "0",
+        "https://observablehq.com/embed/368f0750a9cba714?cells=viewof+username_text%2Cviewof+username_type%2Cviewof+companies%2Cline_scatter",
+        "line chart",
+      ],
+      // image2: unmae_find,
       text4: "Explore more names (and their variations) — on a globe.",
-      image3: uname_choose,
       text5:
         "Search for names that you are interested in and their variations. There might be patterns and trends to explore! ",
-      image4: uname_search,
+      iframe1: [
+        "60%",
+        "909",
+        "0",
+        "https://observablehq.com/embed/368f0750a9cba714?cells=viewof+username_text_2%2Cviewof+username%2Ccircle_scatter",
+        "spherical graph",
+      ],
+      text6: "Methodology",
+      text7:
+        "Unfortunately, datasets on usernames are usually not available online, and each platform has its own protocol. This limited our data exploration to websites that provided username information from their public API. For our initial search we explored:",
+      list: [
+        "Reddit",
+        "YouTube",
+        "Instagram",
+        "Email",
+        "Tiktok",
+        "Twitter",
+        "Steam",
+        "Twitch",
+        "Website domains",
+        "Github",
+        "Spotify",
+        "Mastodon",
+        "Pinterest",
+      ],
+      text8:
+        "Email, website domains, and Steam did not have a public API so there was no way to retrieve that information. Pinterest, Instagram, Youtube, Tiktok, and Spotify had very limited access to user information and only allowed querying user information if you were able to authorize as them. Twitter changed their API policy to be paid. Mastodon is fragmented into several different instances, so there is no central database of users. As such, the only sites we were able to use were <a href='https://www.reddit.com/dev/api/'>Reddit</a>, <a href='https://dev.twitch.tv/docs/api/'>Twitch</a>, and <a href='https://docs.github.com/en/rest'>Github</a>.",
+      text9:
+        "Furthermore, Each of the APIs did not provide a list of all usernames and user information needed to be queried one at a time. Thus, we needed to create the list of usernames ahead of time to use for the visualization. Based on online searches, we chose lists of usernames that were popular on websites.",
+
+      // image4: uname_search,
     },
   },
   {
@@ -185,12 +243,19 @@ export const projectDetail = [
       text: "A choropleth map showing restaurants of all zip code areas in Manhattan, implemented with interactive search and filter functions.",
       text1:
         "Play with a cuisine drop-down menu, rating slide bar, price level checkbox to explore Manhattan restaurants.",
-      image1: food_filter,
+      // image1: food_filter,
       text2:
         "And toggle to show zip code-level data or restaurant-specific datapoints.",
-      image2: food_rest,
+      iframe: [
+        "50%",
+        "900",
+        "0",
+        "https://observablehq.com/embed/bfb194e77174ebeb?cells=viewof+rating%2Cviewof+price%2Cviewof+cuisine_selected%2Cviewof+breakdown%2Cmap_hover",
+        "manhattan food hunt",
+      ],
+      // image2: food_rest,
       text3:
-        "Our data source: data scientist Rachel Spiro's Github repository: NYC-Restaurant-Yelp-and-Inspection-Analysis.",
+        "Data source: <a href='https://github.com/rspiro9/NYC-Restaurant-Yelp-and-Inspection-Analysis'>NYC-Restaurant-Yelp-and-Inspection-Analysis</a> by Rachel Spiro",
     },
   },
   {

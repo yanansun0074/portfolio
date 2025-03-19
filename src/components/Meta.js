@@ -16,13 +16,13 @@ function Meta({ name }) {
   });
   // console.log(list);
   return (
-    <div id="body">
+    <div id="body" className="alef">
       {/* {Object.keys(content).forEach((key, index) => {
         list.push(key);
       })} */}
 
       {list.map((key, index) => {
-        // console.log("there are some keys");
+        // "imgae": images
         if (key.includes("image")) {
           console.log("image found");
           let img = new Image();
@@ -34,7 +34,13 @@ function Meta({ name }) {
           let p = document.createElement("p");
           p.innerHTML = content[key];
           container.appendChild(p);
-          return <p style={{ whiteSpace: "pre-line" }}>{content[key]}</p>;
+          // return <p style={{ whiteSpace: "pre-line" }}>{content[key]}</p>;
+          return (
+            <p
+              style={{ whiteSpace: "pre-line" }}
+              dangerouslySetInnerHTML={{ __html: content[key] }}
+            ></p>
+          );
         }
         // "list": list
         if (key.includes("list")) {
@@ -114,10 +120,11 @@ function Meta({ name }) {
           // return <iframe width="100%" src={content[key]}></iframe>;
           return (
             <iframe
-              width="90%"
-              height="876"
-              frameborder="0"
-              src="https://observablehq.com/embed/dfd69442aa1e8ee0@230?cells=viewof+chart&api_key=f864450d540cc7bd4f23d76b51fc11deb4f2350c"
+              width={content[key][0]}
+              height={content[key][1]}
+              frameborder={content[key][2]}
+              src={content[key][3]}
+              title={content[key][4]}
             ></iframe>
           );
         }
