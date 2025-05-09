@@ -9,6 +9,15 @@ function Home() {
         <h3> Hi, My Name is Yanan Sun</h3>
         <h3> Hi, My Name is Yanan Sun</h3>
         <img src={head} alt="ME" width="200" height="200" />
+        <script
+          async
+          type="module"
+          src="https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js"
+        ></script>
+        <zapier-interfaces-chatbot-embed
+          is-popup="true"
+          chatbot-id="cm9kes8p5006hxmfcbcbzyxo1"
+        ></zapier-interfaces-chatbot-embed>
         <div className="prompt">
           {/* <p>
             A multi-media storyteller ethusiastic about the intersection of

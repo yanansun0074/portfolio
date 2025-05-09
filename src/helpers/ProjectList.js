@@ -18,8 +18,19 @@ import privasee from "../images/PrivaSee_poster.png";
 import wnc from "../images/WNC_poster.png";
 import oscar from "../images/oscar_poster.jpg";
 import airline from "../images/Airline_poster.webp";
+import funds from "../images/Private_funds_poster.png";
 
 export const projectList = [
+  {
+    name: "Local-based Private Funds Map",
+    date: "2025-05",
+    image: funds,
+    skill: "data viz, database",
+    intro: "A map of U.S. local private funds",
+    refs: "https://yanansun0074.github.io/local-private-fund-map/",
+    // route: "oscar-best-pictures",
+    tags: ["data viz", "database"],
+  },
   {
     name: "Oscar Best Picture in Box Office",
     date: "2025-03",
