@@ -19,18 +19,28 @@ import dihua3 from "../images/worksamples/dihua_4.png";
 import dihua4 from "../images/worksamples/dihua_5.png";
 import bd from "../images/worksamples/bytedance.png";
 import lede from "../images/worksamples/lede.png";
+import chatbot from "../images/worksamples/Newsbot_poster.png";
+import wnc from "../images/worksamples/WNC_poster.png";
+import gazzetta from "../images/worksamples/gazzetta_5.png";
 
 export const ExperienceList = [
   {
-    title: "Local News Researcher",
+    title: "Data Researcher, Local News",
     company: "UNC Hussman School of Journalism And Media",
     company_link: "https://hussman.unc.edu/",
     time: "2024/10 - Now",
-    role: "Carry out the day-to-day work of data collection, analysis, storage and public presentation for local news research projects\nWork with the research director and interns to complete projects and present deliverables to a variety of stakeholders",
+    role: "Led an AI chatbot pilot, including prompt design, pipeline architecture, and front-end deployment for local news.\nConducted content analysis of 5,000+ PDFs to examine disaster coverage trends.\nBuilt topic models and spatial visualizations in Python.\nDesigned public-facing reports and interactive dashboards using Flourish, Illustrator, and R",
     reflection: "",
     samples: [
-      // { sample_img: brown, sample_link: "" },
-      // { sample_img: brown2, sample_link: "" },
+      {
+        sample_img: chatbot,
+        sample_link: "https://www.cislm.org/research/local-newsbot-studio/",
+      },
+      {
+        sample_img: wnc,
+        sample_link:
+          "https://www.cislm.org/research/local-news-in-the-eye-of-the-storm/",
+      },
       // { sample_img: brown3, sample_link: "" },
     ],
   },
@@ -39,12 +49,27 @@ export const ExperienceList = [
     company: "Gazzetta Media",
     company_link: "https://www.gazzetta.xyz/?ref=pboehler.net",
     time: "2024/09 - Now",
-    role: "Identify and adapt relevant internet freedom technologies for newsrooms operating in challenging environments\nDevelop and provide technical guidance for media practitioners in restricted media landscapes\nAssist in the creation of unique case studies tailored to restricted media environments\nCollaborate with newsrooms to address their challenges and create cases studies\nContribute to a comprehensive training syllabus for journalists working in challenging contexts",
+    role: "Identify and adapt relevant internet freedom technologies for newsrooms operating in challenging environments\nDevelop and provide technical guidance for media practitioners in restricted media landscapes\nAssist in the creation of unique case studies tailored to restricted media environments",
     reflection: "",
     samples: [
-      // { sample_img: brown, sample_link: "" },
+      {
+        sample_img: gazzetta,
+        sample_link: "https://www.gazzetta.xyz/mindset-clustering/",
+      },
       // { sample_img: brown2, sample_link: "" },
       // { sample_img: brown3, sample_link: "" },
+    ],
+  },
+  {
+    title: "Co-founder",
+    company: "Data At Large LLC.",
+    company_link: "https://dataatlarge.com/",
+    time: "2024/06 - Now",
+    role: "Provided data communication services for organizations with limited capabilities\nDesigned visual communications through data analysis and visualizations\nExecuted social media account, created engaging data-related content",
+    reflection: "",
+    samples: [
+      { sample_img: atlarge, sample_link: "" },
+      { sample_img: atlarge2, sample_link: "" },
     ],
   },
   {
@@ -60,18 +85,7 @@ export const ExperienceList = [
       { sample_img: brown3, sample_link: "" },
     ],
   },
-  {
-    title: "Co-founder",
-    company: "Data At Large LLC.",
-    company_link: "https://dataatlarge.com/",
-    time: "2024/06 - Now",
-    role: "Provided data communication services for organizations with limited capabilities\nDesigned visual communications through data analysis and visualizations\nExecuted social media account, created engaging data-related content",
-    reflection: "",
-    samples: [
-      { sample_img: atlarge, sample_link: "" },
-      { sample_img: atlarge2, sample_link: "" },
-    ],
-  },
+
   {
     title: "Lede Program Teaching Assistant",
     company: "Columbia Journalism School",

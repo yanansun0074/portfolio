@@ -19,13 +19,24 @@ import wnc from "../images/WNC_poster.png";
 import oscar from "../images/oscar_poster.jpg";
 import airline from "../images/Airline_poster.webp";
 import funds from "../images/Private_funds_poster.png";
+import chatbot from "../images/Newsbot_poster.png";
 
 export const projectList = [
+  {
+    name: "Local NewsBot Studio",
+    date: "W.I.P",
+    image: chatbot,
+    skill: "AI, Research",
+    intro: "Build chatbot with and for local news",
+    refs: "https://www.cislm.org/research/local-newsbot-studio/",
+    // route: "oscar-best-pictures",
+    tags: ["AI", "research", "web app"],
+  },
   {
     name: "Local-based Private Funds Map",
     date: "2025-05",
     image: funds,
-    skill: "data viz, database",
+    skill: "Data Viz, Database",
     intro: "A map of U.S. local private funds",
     refs: "https://yanansun0074.github.io/local-private-fund-map/",
     // route: "oscar-best-pictures",
@@ -35,7 +46,7 @@ export const projectList = [
     name: "Oscar Best Picture in Box Office",
     date: "2025-03",
     image: oscar,
-    skill: "data viz, d3",
+    skill: "Data Viz, D3.js",
     intro: "Best picture, low box office",
     route: "oscar-best-pictures",
     tags: ["data viz"],
@@ -44,7 +55,7 @@ export const projectList = [
     name: "Local News in the Eye of the Storm",
     date: "2025-03",
     image: wnc,
-    skill: "Data analysis, research",
+    skill: "Data Analysis, Research",
     refs: "https://www.cislm.org/research/local-news-in-the-eye-of-the-storm/",
     intro: "An analysis of Hurricane Helene coverage in Western North Carolina",
     tags: ["data viz", "research"],
@@ -53,7 +64,7 @@ export const projectList = [
     name: "Airline On-time Performance",
     date: "2024-09",
     image: airline,
-    skill: "Data viz",
+    skill: "Data Viz",
     refs: "https://medium.com/@yananbecca/after-an-overnight-delay-i-visualized-carriers-on-time-performance-c81b80259b6c",
     intro: "Which airline delayed the most?",
     tags: ["data viz"],
@@ -62,11 +73,11 @@ export const projectList = [
     name: "PrivaSee",
     date: "W.I.P",
     image: privasee,
-    skill: "NLP, product, UI",
+    skill: "NLP, Product, UI",
     refs: "https://yanansun0074.github.io/privasee/",
     intro:
       "An AI-powered tool that analyzes, visualizes, and scores privacy policies.",
-    tags: ["UI/UX", "design"],
+    tags: ["UI/UX", "design", "web app"],
   },
 
   {
@@ -74,7 +85,7 @@ export const projectList = [
     name: "Queer Representation in Feature Films",
     date: "W.I.P",
     image: queer,
-    skill: "Reporting, data viz",
+    skill: "Reporting, Data Viz",
     intro: "More queer character, but less queer representation",
     tags: ["data viz", "reporting"],
   },
@@ -83,7 +94,7 @@ export const projectList = [
     name: "3D Geospatial Mapping for Journalism",
     date: "2024-04",
     image: shed,
-    skill: "Reporting, 3D data viz",
+    skill: "Reporting, 3D, Data Viz",
     intro:
       "A beginner-friendly pipeline with PyDeck to prototype 3D geospatial mapping.",
     tags: ["data viz", "3D"],
@@ -129,7 +140,7 @@ export const projectList = [
     name: "Common Usernames",
     image: uname,
     date: "2023-05",
-    skill: "Data Vis, D3",
+    skill: "Data Viz, D3.js",
     intro: "A visualization of how quickly common usernames were taken",
     tags: ["data viz"],
   },
@@ -147,7 +158,7 @@ export const projectList = [
     name: "Manhattan Food Hunt",
     image: food,
     date: "2023-03",
-    skill: "Data Vis, D3",
+    skill: "Data Viz, D3.js",
     intro:
       "An interactive guide on Manhattan restaurants that cater to your apetitie",
     tags: ["data viz"],
@@ -193,7 +204,7 @@ export const projectList = [
     name: "Course Eval for UNC",
     image: ceval,
     date: "2020-12",
-    skill: "JavaScript, Html, CSS",
+    skill: "JavaScript, Html, CSS, MongoDB",
     intro: "A course evaluation website for Tar Heels",
     tags: ["web app"],
   },

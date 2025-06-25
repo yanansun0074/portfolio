@@ -7,15 +7,39 @@ import gaze from "../images/articles/gaze.png";
 import nutshell from "../images/articles/Nutshell.png";
 import g1 from "../images/articles/gazzetta_1.png";
 import g2 from "../images/articles/gazzetta_2.png";
+import g3 from "../images/articles/gazzetta_3.png";
+import g4 from "../images/articles/gazzetta_4.png";
+import g5 from "../images/articles/gazzetta_5.png";
 
 export const ArticleList = [
+  {
+    title:
+      "Psychological mindset cluster helps with decision making and sizing opportunities",
+    img: g5,
+    summary: "Mindsets cluster for targeted information strategies.",
+    link: "https://www.gazzetta.xyz/mindset-clustering/",
+  },
+  {
+    title:
+      "From function to fulfillment: A practical guide to information need models",
+    img: g4,
+    summary: "Beyond functional to fulfillment needs.",
+    link: "https://www.gazzetta.xyz/needs-framework/",
+  },
+  {
+    title:
+      "How research reviews can lead to new insights, even in challenging contexts",
+    img: g3,
+    summary: "Research reviews can reveal overlooked audience insights",
+    link: "https://www.gazzetta.xyz/research-reviews/",
+  },
   {
     title:
       "Confidence levels over data points: Our approach to understanding information needs",
     img: g2,
     summary:
       "Forget rigid surveys. We prioritize understanding the 'why' behind information needs, not just the 'what,' by measuring confidence levels over mere data points. This allows us to adapt and uncover deeper insights, especially in challenging environments.",
-    link: "https://www.gazzetta.xyz/work-notes/audience-research-methods",
+    link: "https://www.gazzetta.xyz/confidence-levels/",
   },
   {
     title:
@@ -23,7 +47,7 @@ export const ArticleList = [
     img: g1,
     summary:
       "In our research in China, we discovered that journalists' assumptions about audience information needs often diverge dramatically from reality. Over the next few weeks, we'll share insights from this research, showing that if we can successfully identify and serve real audience needs in China's restricted media environment, this approach can work anywhere.",
-    link: "https://www.gazzetta.xyz/work-notes/intro",
+    link: "https://www.gazzetta.xyz/intro/",
   },
   {
     title: "The Nutshell - Nov 1, 2024 Edition",

@@ -25,11 +25,15 @@ function Home() {
           </p> */}
           <div className="who alef">
             <p>
-              I’m a multi-media storyteller, game developer, graphics designer,
-              video editors and more. I am interested in exploring the
-              intersectionality of the media and technology. I am currently the{" "}
+              I’m a software developer, multi-media storyteller, game developer,
+              graphics designer, video editors and more. I am interested in
+              exploring the intersectionality of the media and technology.{" "}
+            </p>
+            <p>
+              {" "}
+              I am currently the{" "}
               <a href="https://hussman.unc.edu/people/yanan-sun">
-                Local News Researcher
+                Data Researcher
               </a>{" "}
               at UNC Hussman School of Journalism and Media, conducting
               quantitative research on the sustainability of local news. Before
@@ -90,23 +94,29 @@ function Home() {
           <div className="updates-items">
             <ul>
               <li>
+                <a href="https://2025.srccon.org/schedule/#_session-opportunities-information-safety">
+                  Upcoming workshop at SRCCON 2025 about information safety -
+                  Hope to see you there!
+                </a>
+              </li>
+              <li>
+                <a href="https://www.cislm.org/research/local-newsbot-studio/">
+                  Local Newsbot Studio - Building AI chatbot with and for local
+                  newsrooms
+                </a>
+              </li>
+              <li>
                 <a href="https://2025.open-data.nyc/event/make-your-3d-data-viz-map/">
-                  Upcoming workshop - Make Your 3D Data Viz Map at NYC Open Data
-                  Week 2025 [RSVP]
+                  Workshop: Make Your 3D Data Viz Map at NYC Open Data Week 2025
                 </a>
               </li>
-              <li>
-                <a href="https://www.cislm.org/research/local-news-in-the-eye-of-the-storm/">
-                  Report - Local News in the Eye of the Storm: Coverage of
-                  Hurricane Helene in Western North Carolina
-                </a>
-              </li>
-              <li>
+
+              {/* <li>
                 <a href="https://docs.google.com/presentation/d/1AC1ZC64b2cpht30UePaevOKpJKJxLuFr/edit">
                   Talk - "How we built a chatbot, and should you build one,
                   too?" at NC News & Info Summit
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
