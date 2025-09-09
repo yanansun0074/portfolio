@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cda4bc1c.css",
-    "main.js": "/portfolio/static/js/main.f15750a4.js",
+    "main.css": "/portfolio/static/css/main.f09d8c8c.css",
+    "main.js": "/portfolio/static/js/main.b304c216.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/SidewalkShed_cover.gif": "/portfolio/static/media/SidewalkShed_cover.52544b7ce9c34d3b36ef.gif",
     "static/media/Squirrel_Map2.gif": "/portfolio/static/media/Squirrel_Map2.4ab371f506584f9a548a.gif",
@@ -46,6 +46,7 @@
     "static/media/un_cover_2.png": "/portfolio/static/media/un_cover_2.e65ed6f5f74ad1ed7a35.png",
     "static/media/MetaMapper_select.png": "/portfolio/static/media/MetaMapper_select.0819f3c4e5c3d01d3905.png",
     "static/media/MetaMapper_wayfinding.png": "/portfolio/static/media/MetaMapper_wayfinding.16defef120c334b2c4ff.png",
+    "static/media/Newsbot_poster.png": "/portfolio/static/media/Newsbot_poster.29efb01edc87af4c4320.png",
     "static/media/halara_post.jpg": "/portfolio/static/media/halara_post.f177a0c5131243eff569.jpg",
     "static/media/IcesheetVR_cover.png": "/portfolio/static/media/IcesheetVR_cover.044a08148d08a3a2e3e7.png",
     "static/media/halara_post3.jpg": "/portfolio/static/media/halara_post3.bb6851587fdee9e2036b.jpg",
@@ -70,8 +71,11 @@
     "static/media/MetaMapper_scene1.png": "/portfolio/static/media/MetaMapper_scene1.54e13d788d07916835b5.png",
     "static/media/un_policy_briefs.png": "/portfolio/static/media/un_policy_briefs.73e513bef2d28563e9d2.png",
     "static/media/gazzetta_1.png": "/portfolio/static/media/gazzetta_1.053fc9ca7570fb418915.png",
+    "static/media/gazzetta_5.png": "/portfolio/static/media/gazzetta_5.9faf4eb18e536901e0b3.png",
     "static/media/dataatlarge_sample.jpg": "/portfolio/static/media/dataatlarge_sample.d316a70e76673eab6231.jpg",
     "static/media/gazzetta_2.png": "/portfolio/static/media/gazzetta_2.0685359b7de5d0784591.png",
+    "static/media/gazzetta_3.png": "/portfolio/static/media/gazzetta_3.e04806deccd583d70d0e.png",
+    "static/media/gazzetta_4.png": "/portfolio/static/media/gazzetta_4.f8fc152c73e946aaa5af.png",
     "static/media/Nutshell.png": "/portfolio/static/media/Nutshell.792f5bd481fa9b14ceed.png",
     "static/media/monthly_rate_DA.png": "/portfolio/static/media/monthly_rate_DA.653ee6d02902fa2f9ad7.png",
     "static/media/HomePage_transparent.png": "/portfolio/static/media/HomePage_transparent.a6e7c39137768f53a5c8.png",
@@ -79,12 +83,12 @@
     "static/media/MetaMapper_travel.jpg": "/portfolio/static/media/MetaMapper_travel.4ba965c2e6007d0e4809.jpg",
     "static/media/unity_tutorial_cover.png": "/portfolio/static/media/unity_tutorial_cover.6dedd6ef35bfab0dd02b.png",
     "index.html": "/portfolio/index.html",
-    "main.cda4bc1c.css.map": "/portfolio/static/css/main.cda4bc1c.css.map",
-    "main.f15750a4.js.map": "/portfolio/static/js/main.f15750a4.js.map",
+    "main.f09d8c8c.css.map": "/portfolio/static/css/main.f09d8c8c.css.map",
+    "main.b304c216.js.map": "/portfolio/static/js/main.b304c216.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cda4bc1c.css",
-    "static/js/main.f15750a4.js"
+    "static/css/main.f09d8c8c.css",
+    "static/js/main.b304c216.js"
   ]
 }

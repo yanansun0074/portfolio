@@ -24,7 +24,7 @@ import chatbot from "../images/Newsbot_poster.png";
 export const projectList = [
   {
     name: "Local NewsBot Studio",
-    date: "W.I.P",
+    date: "2025-08",
     image: chatbot,
     skill: "AI, Research",
     intro: "Build chatbot with and for local news",
@@ -73,7 +73,7 @@ export const projectList = [
     name: "PrivaSee",
     date: "W.I.P",
     image: privasee,
-    skill: "NLP, Product, UI",
+    skill: "AI, Product, NLP, UI",
     refs: "https://yanansun0074.github.io/privasee/",
     intro:
       "An AI-powered tool that analyzes, visualizes, and scores privacy policies.",

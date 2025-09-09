@@ -94,17 +94,16 @@ function Home() {
           <div className="updates-items">
             <ul>
               <li>
-                <a href="https://2025.srccon.org/schedule/#_session-opportunities-information-safety">
-                  Upcoming workshop at SRCCON 2025 about information safety -
-                  Hope to see you there!
+                <a href="https://www.cislm.org/research/local-newsbot-studio/local-newsbot-studio-report/">
+                  New Research 🔍 Local Newsbot Studio research report published
                 </a>
               </li>
               <li>
-                <a href="https://www.cislm.org/research/local-newsbot-studio/">
-                  Local Newsbot Studio - Building AI chatbot with and for local
-                  newsrooms
+                <a href="https://2025.srccon.org/schedule/#_session-opportunities-information-safety">
+                  Talk at SRCCON 2025 about information safety
                 </a>
               </li>
+
               <li>
                 <a href="https://2025.open-data.nyc/event/make-your-3d-data-viz-map/">
                   Workshop: Make Your 3D Data Viz Map at NYC Open Data Week 2025

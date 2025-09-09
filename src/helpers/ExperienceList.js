@@ -22,6 +22,7 @@ import lede from "../images/worksamples/lede.png";
 import chatbot from "../images/worksamples/Newsbot_poster.png";
 import wnc from "../images/worksamples/WNC_poster.png";
 import gazzetta from "../images/worksamples/gazzetta_5.png";
+import unc2 from "../images/worksamples/philanthropy_poster.png";
 
 export const ExperienceList = [
   {
@@ -37,6 +38,11 @@ export const ExperienceList = [
         sample_link: "https://www.cislm.org/research/local-newsbot-studio/",
       },
       {
+        sample_img: unc2,
+        sample_link:
+          "https://www.cislm.org/research/philanthropy-and-local-news/",
+      },
+      {
         sample_img: wnc,
         sample_link:
           "https://www.cislm.org/research/local-news-in-the-eye-of-the-storm/",
@@ -45,24 +51,22 @@ export const ExperienceList = [
     ],
   },
   {
-    title: "Research Technologist",
-    company: "Gazzetta Media",
-    company_link: "https://www.gazzetta.xyz/?ref=pboehler.net",
-    time: "2024/09 - Now",
-    role: "Identify and adapt relevant internet freedom technologies for newsrooms operating in challenging environments\nDevelop and provide technical guidance for media practitioners in restricted media landscapes\nAssist in the creation of unique case studies tailored to restricted media environments",
+    title: "AI Developer / Engineer",
+    company: "Atlanta Civic Circle",
+    company_link: "https://atlantaciviccircle.org/",
+    time: "2025/07 - Now",
+    role: "Developed and maintained a reader-facing AI chatbot focused on ACC’s politics reporting\nScraped public records and election-related data,integrating them into the chatbot’s knowledge base\nBuilt infrastructure to automate content ingestion from internal sources for continuous updates",
     reflection: "",
-    samples: [
-      {
-        sample_img: gazzetta,
-        sample_link: "https://www.gazzetta.xyz/mindset-clustering/",
-      },
-      // { sample_img: brown2, sample_link: "" },
-      // { sample_img: brown3, sample_link: "" },
-    ],
+    // samples: [
+    //   {
+    //     sample_img: gazzetta,
+    //     sample_link: "https://www.gazzetta.xyz/mindset-clustering/",
+    //   },
+    // ],
   },
   {
     title: "Co-founder",
-    company: "Data At Large LLC.",
+    company: "Data At Large.",
     company_link: "https://dataatlarge.com/",
     time: "2024/06 - Now",
     role: "Provided data communication services for organizations with limited capabilities\nDesigned visual communications through data analysis and visualizations\nExecuted social media account, created engaging data-related content",
@@ -70,6 +74,20 @@ export const ExperienceList = [
     samples: [
       { sample_img: atlarge, sample_link: "" },
       { sample_img: atlarge2, sample_link: "" },
+    ],
+  },
+  {
+    title: "Research Technologist",
+    company: "Gazzetta Media",
+    company_link: "https://www.gazzetta.xyz/?ref=pboehler.net",
+    time: "2024/09 - 2025/07",
+    role: "Identify and adapt relevant internet freedom technologies for newsrooms operating in challenging environments\nDevelop and provide technical guidance for media practitioners in restricted media landscapes\nAssist in the creation of unique case studies tailored to restricted media environments",
+    reflection: "",
+    samples: [
+      {
+        sample_img: gazzetta,
+        sample_link: "https://www.gazzetta.xyz/mindset-clustering/",
+      },
     ],
   },
   {
