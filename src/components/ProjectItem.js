@@ -31,8 +31,10 @@ function ProjectItem({ route, image, name, intro, date, skill, refs, href }) {
         <h1> {name} </h1>
       </div>
       <p className="intro"> {intro} </p>
-      <p className="date"> {date} </p>
-      <p className="skill">{skill}</p>
+      <div className="project-footer">
+        <p className="date"> {date} </p>
+        <p className="skill">{skill}</p>
+      </div>
     </div>
   );
   // } else {

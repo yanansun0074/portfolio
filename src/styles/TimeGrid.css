@@ -1,0 +1,201 @@
+.time-grid-container {
+  position: fixed;
+  top: 20%;
+  left: 20px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  background-opacity: 0.5;
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 320px;
+  transition: all 0.3s ease;
+  
+  /* Animation properties */
+  animation: slideInFromTop 0.3s ease-out forwards;
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.time-grid-container:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.time-grid {
+  font-family: 'Alata', sans-serif;
+}
+
+.time-grid-header h3 {
+  margin: 0 0 12px 0;
+  color: #4b9cd3;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.time-grid-content {
+  display: flex;
+  gap: 8px;
+}
+
+.year-labels {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 32px;
+  padding-top: 2px; /* Add padding to align with grid */
+}
+
+.year-label {
+  font-size: 11px;
+  color: #666;
+  text-align: right;
+  line-height: 10px;
+  height: 22px; /* Height for two rows (2 * 10px + 2px gap) */
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 2px; /* Match the padding from year-labels */
+}
+
+.month-labels {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.month-label {
+  font-size: 9px;
+  color: #999;
+  width: 10px;
+  text-align: center;
+  line-height: 10px;
+  height: 10px;
+}
+
+.contribution-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.year-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.half-year-row {
+  display: flex;
+  gap: 2px;
+}
+
+.contribution-cell {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.contribution-cell:hover {
+  transform: scale(1.2);
+  border: 1px solid #4b9cd3;
+  z-index: 10;
+  position: relative;
+}
+
+.time-grid-legend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: 10px;
+  color: #666;
+}
+
+.legend-squares {
+  display: flex;
+  gap: 2px;
+}
+
+.legend-square {
+  width: 8px;
+  height: 8px;
+  border-radius: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+  .time-grid-container {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 20px auto;
+    max-width: 100%;
+    width: calc(100% - 40px);
+  }
+  
+  .time-grid-header h3 {
+    text-align: center;
+  }
+  
+  .time-grid-content {
+    justify-content: center;
+  }
+  
+  .contribution-cell {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .month-label {
+    width: 12px;
+  }
+  
+  .year-label {
+    min-width: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .time-grid-container {
+    padding: 12px;
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+  
+  .contribution-cell {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .month-label {
+    width: 14px;
+  }
+  
+  .year-label {
+    min-width: 45px;
+  }
+}

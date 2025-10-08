@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f09d8c8c.css",
-    "main.js": "/portfolio/static/js/main.b304c216.js",
+    "main.js": "/portfolio/static/js/main.528f1107.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/SidewalkShed_cover.gif": "/portfolio/static/media/SidewalkShed_cover.52544b7ce9c34d3b36ef.gif",
     "static/media/Squirrel_Map2.gif": "/portfolio/static/media/Squirrel_Map2.4ab371f506584f9a548a.gif",
@@ -43,6 +43,7 @@
     "static/media/dihua_2.png": "/portfolio/static/media/dihua_2.0d320a1debcf68521081.png",
     "static/media/WNC_poster.png": "/portfolio/static/media/WNC_poster.424303114dcc85d150c6.png",
     "static/media/PrivaSee_poster.png": "/portfolio/static/media/PrivaSee_poster.b995d95fade06c4046e1.png",
+    "static/media/philanthropy_poster.png": "/portfolio/static/media/philanthropy_poster.b350ed2dc0ffdc7c6d11.png",
     "static/media/un_cover_2.png": "/portfolio/static/media/un_cover_2.e65ed6f5f74ad1ed7a35.png",
     "static/media/MetaMapper_select.png": "/portfolio/static/media/MetaMapper_select.0819f3c4e5c3d01d3905.png",
     "static/media/MetaMapper_wayfinding.png": "/portfolio/static/media/MetaMapper_wayfinding.16defef120c334b2c4ff.png",
@@ -84,11 +85,11 @@
     "static/media/unity_tutorial_cover.png": "/portfolio/static/media/unity_tutorial_cover.6dedd6ef35bfab0dd02b.png",
     "index.html": "/portfolio/index.html",
     "main.f09d8c8c.css.map": "/portfolio/static/css/main.f09d8c8c.css.map",
-    "main.b304c216.js.map": "/portfolio/static/js/main.b304c216.js.map",
+    "main.528f1107.js.map": "/portfolio/static/js/main.528f1107.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f09d8c8c.css",
-    "static/js/main.b304c216.js"
+    "static/js/main.528f1107.js"
   ]
 }

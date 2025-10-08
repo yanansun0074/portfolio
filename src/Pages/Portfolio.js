@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProjectItem from "../components/ProjectItem";
+import TimeGrid from "../components/TimeGrid";
 import { projectList } from "../helpers/ProjectList";
 
 import "../styles/Project.css";
@@ -15,6 +16,7 @@ const Portfolio = () => {
   );
   return (
     <div className="projects alata-regular">
+      <TimeGrid />
       <h1 className="headline">Project</h1>
       {/* Tag buttons */}
       <div className="tag-container">

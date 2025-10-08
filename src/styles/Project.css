@@ -103,27 +103,38 @@
 
 }
 
-.projectItem p.date{
+.projectItem .project-footer {
   position: absolute;
-  font-size: 15px;
-  text-align: left;
-  bottom: 1%;
-  left: 2%;
-  margin-left: 30px;
-  /* display: inline-block; */
-  width:100px;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.projectItem p.date{
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  color: #666;
+}
+
+.projectItem p.intro{
+  /* font-size: 13px; */
+  text-align: center;
+  margin: 0 0.5em ;
+  color: #666;
 }
 
 .projectItem p.skill{
-  position: absolute;
-  font-size: 15px;
-  bottom: 1%;
-  right: 40px;
-  /* left: 50%; */
-  display: inline-block;
+  font-size: 13px;
+  margin: 0;
   text-decoration: underline;
-  /* text-decoration: green wavy underline; */
   font-style: italic;
+  color: #4b9cd3;
+  word-wrap: break-word;
+  line-height: 1.2;
 }
 
 @media only screen and (max-width: 1300px) {
