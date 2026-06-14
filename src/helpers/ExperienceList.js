@@ -23,8 +23,38 @@ import chatbot from "../images/worksamples/Newsbot_poster.png";
 import wnc from "../images/worksamples/WNC_poster.png";
 import gazzetta from "../images/worksamples/gazzetta_5.png";
 import unc2 from "../images/worksamples/philanthropy_poster.png";
+import hearst from "../images/worksamples/hearst_ct_1.jpg";
 
 export const ExperienceList = [
+  {
+    title: "A.I. Initiatives Fellow",
+    company: "The New York Times",
+    company_link:
+      "https://www.nytco.com/press/introducing-the-a-i-initiatives-team/",
+    time: "2026/06 - Now",
+    role: "Collaborate with investigative reporters to support projects that benefit from A.I.\nIdentify opportunities and experiment with responsible A.I. tools to empower the newsroom\nParticipate in training and social programs designed for the fellowship",
+    reflection: "",
+    // samples: [
+    //   {
+    //     sample_img: hearst,
+    //     sample_link: "https://www.ctinsider.com/",
+    //   },
+    // ],
+  },
+  {
+    title: "Newsroom AI & Automation Engineer",
+    company: "Hearst Connecticut Media Group",
+    company_link: "https://www.hearst.com/",
+    time: "2026/02 - 2026/05",
+    role: "Built and maintained newsroom AI applications to support editorial workflows, personalization features, and reader facing tools.\nDesigned internal automation systems that faciliated manual production tasks\nTrained journalists on responsible AI use, ensure reliable daily operation across newsroom teams.",
+    reflection: "",
+    samples: [
+      {
+        sample_img: hearst,
+        sample_link: "https://www.ctinsider.com/",
+      },
+    ],
+  },
   {
     title: "Data Researcher, Local News",
     company: "UNC Hussman School of Journalism And Media",
@@ -54,7 +84,7 @@ export const ExperienceList = [
     title: "AI Developer / Engineer",
     company: "Atlanta Civic Circle",
     company_link: "https://atlantaciviccircle.org/",
-    time: "2025/07 - Now",
+    time: "2025/07 - 2025/11",
     role: "Developed and maintained a reader-facing AI chatbot focused on ACC’s politics reporting\nScraped public records and election-related data,integrating them into the chatbot’s knowledge base\nBuilt infrastructure to automate content ingestion from internal sources for continuous updates",
     reflection: "",
     // samples: [

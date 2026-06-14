@@ -25,20 +25,42 @@ function Home() {
           </p> */}
           <div className="who alef">
             <p>
-              I’m a software developer, multi-media storyteller, game developer,
-              graphics designer, video editors and more. I am interested in
-              exploring the intersectionality of the media and technology.{" "}
+              I am an AI integration developer, multi-media storyteller,
+              quantitative researcher, game developer, graphics editor and more.
+              My work explores the intersection of media and technology, with a
+              focus on creating tools, stories, and experiences that help people
+              better understand the world around them.{" "}
             </p>
             <p>
               {" "}
-              I am currently the{" "}
-              <a href="https://hussman.unc.edu/people/yanan-sun">
-                Data Researcher
+              I am currently an{" "}
+              <a href="https://www.nytco.com/careers/early-career-opportunities/newsroom-fellowship/2026-27-fellows/">
+                AI Initiative fellow
               </a>{" "}
-              at UNC Hussman School of Journalism and Media, conducting
-              quantitative research on the sustainability of local news. Before
-              that, I worked as an entrepreneurship fellow at the Brown
-              Institute in New York City, developing{" "}
+              at the New York Times, where I help journalists use artificial
+              intelligence to discover and tell stories that would be difficult
+              to uncover through traditional reporting alone. Previously, I
+              worked as a Newsroom AI and Automation Engineer at{" "}
+              <a href="https://www.ctinsider.com/">
+                Hearst Connecticut Media Group
+              </a>
+              , where I transformed text based journalism into multimodal
+              audience experiences through automation. As a{" "}
+              <a href="https://www.cislm.org/about/">
+                data engineer & researcher
+              </a>{" "}
+              at UNC Hussman School of Journalism and Media, I conducted
+              quantitative research on the sustainability of local news and
+              developed innovative solutions for local newsrooms. At{" "}
+              <a href="https://www.gazzetta.xyz/">Gazzetta</a> , I contributed
+              to a framework for newsrooms to conduct remote audience research,
+              especially in challenging media censorship environments. We
+              applied and improved this framework through a remote audience
+              research project focused on blue collar migrant workers in China.
+            </p>
+            <p>
+              I was also an Entrepreneurship Fellow at the Brown Institute in
+              New York City, developing{" "}
               <a href="https://brown.columbia.edu/the-winners-of-our-venture-challenge/">
                 PrivaSee
               </a>
@@ -46,18 +68,7 @@ function Home() {
               app’s privacy policies. I am also the co-founder of{" "}
               <a href="https://dataatlarge.com/">Data At Large</a>, a studio
               that innovate in data consumptions and storytelling via AI, data
-              visualization, etc..
-            </p>
-            <p>
-              Before that, I worked as research assistant at the Computer
-              Graphics and User Interface lab at Columbia University,
-              contributing to the UI of{" "}
-              <a href="https://graphics.cs.columbia.edu/home">
-                a XR application for glacial research
-              </a>
-              . I worked as the graphics designer at the United Nations for six
-              months, where I independently designed and edited layouts and
-              graphics of two policy publications facing global audiences.{" "}
+              visualization, etc.
             </p>
             <p>
               I received my Master’s of Journalism and Computer Science degree
@@ -66,26 +77,17 @@ function Home() {
                 sidewalk sheds’ impacts on New York City’s local businesses
               </a>{" "}
               and explored the use of 3D data visualization in journalism. I
-              also worked on a computation project about{" "}
-              <a href="https://www.notion.so/Queer-Representation-in-Feature-Films-0875204751e441158dc669998967ec78?pvs=4">
-                queer representation in feature films
-              </a>{" "}
-              with data analysis and language models, showing the changes in
-              queer characters’ expression and the stories behind it. I
-              produced, recorded, and edited two audio episodes of{" "}
-              <a href="https://yanansun0074.github.io/portfolio/#/project/podcast-onomatopoeia">
-                “Onomatopoeia”
-              </a>
-              , a podcast about the city by Columbia Journalism School.
-            </p>
-            <p>
-              At the engineering school, I worked as a teaching assistant for
-              Computer Graphics. I developed a headset-based interactive VR app{" "}
+              developed a headset-based interactive VR app{" "}
               <a href="https://yanansun0074.github.io/portfolio/#/project/meta-mapper">
                 “Meta Mapper”
               </a>{" "}
               for the immersive touring and guiding experience at the
-              Metropolitan Museum of Art.{" "}
+              Metropolitan Museum of Art. I also worked as research assistant at
+              the Computer Graphics and User Interface lab at Columbia
+              University, contributing to the UI of{" "}
+              <a href="https://graphics.cs.columbia.edu/home">
+                a XR application for glacial research
+              </a>
             </p>
           </div>
         </div>
