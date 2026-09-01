@@ -32,7 +32,7 @@ export const ExperienceList = [
     company_link:
       "https://www.nytco.com/press/introducing-the-a-i-initiatives-team/",
     time: "2026/06 - Now",
-    role: "Collaborate with investigative reporters to support projects that benefit from A.I.\nIdentify opportunities and experiment with responsible A.I. tools to empower the newsroom\nParticipate in training and social programs designed for the fellowship",
+    role: "Partner with reporters across the newsroom to identify opportunities for responsible AI in investigative reporting.\nDesign and develop AI-powered tools that support data collection, analysis, fact checking, and reporting workflows.\nBuild prototypes and production ready applications that expand journalists' ability to discover, verify, and analyze information",
     reflection: "",
     // samples: [
     //   {
