@@ -59,7 +59,7 @@ export const ExperienceList = [
     title: "Data Researcher, Local News",
     company: "UNC Hussman School of Journalism And Media",
     company_link: "https://hussman.unc.edu/",
-    time: "2024/10 - Now",
+    time: "2024/10 - 2026/02",
     role: "Led an AI chatbot pilot, including prompt design, pipeline architecture, and front-end deployment for local news.\nConducted content analysis of 5,000+ PDFs to examine disaster coverage trends.\nBuilt topic models and spatial visualizations in Python.\nDesigned public-facing reports and interactive dashboards using Flourish, Illustrator, and R",
     reflection: "",
     samples: [

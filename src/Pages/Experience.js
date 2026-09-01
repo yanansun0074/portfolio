@@ -7,7 +7,7 @@ import "../styles/Experience.css";
 function Experience() {
   return (
     <div className="experience">
-      <h1 className="headline">Experience</h1>
+      <h1 className="headline">Professional Experience</h1>
       <div className="experience-section">
         <div class="list-component">
           {ExperienceList.map((experience) => {

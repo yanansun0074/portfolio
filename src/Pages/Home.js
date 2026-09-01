@@ -6,8 +6,9 @@ function Home() {
   return (
     <div className="home">
       <div className="about alata-regular">
-        <h3> Hi, My Name is Yanan Sun</h3>
-        <h3> Hi, My Name is Yanan Sun</h3>
+        <div className="greeting-title">
+          <h3>Hi, My Name is Yanan Sun</h3>
+        </div>
         <img src={head} alt="ME" width="200" height="200" />
         <script
           async
